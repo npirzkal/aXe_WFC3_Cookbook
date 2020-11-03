@@ -1,0 +1,1478 @@
+[INFO    ] Setting up logfile :  astrodrizzle.log
+[INFO    ] 
+[INFO    ] AstroDrizzle Version 2.1.21(12-January-2018) started at: 17:17:57.180 (04/03/2019)
+[INFO    ] 
+[INFO    ] Version Information
+[INFO    ] --------------------
+[INFO    ] Python Version 2.7.14 |Anaconda, Inc.| (default, Dec  7 2017, 11:07:58) 
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)]
+[INFO    ] numpy Version -> 1.11.3 
+[INFO    ] astropy Version -> 2.0.3 
+[INFO    ] stwcs Version -> 1.3.2 
+[INFO    ] ==== Processing Step  Initialization  started at  17:17:57.184 (04/03/2019)
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o03n9q_flt.fits as  OrIg_files/ib6o03n9q_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o03nbq_flt.fits as  OrIg_files/ib6o03nbq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o03nfq_flt.fits as  OrIg_files/ib6o03nfq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o03niq_flt.fits as  OrIg_files/ib6o03niq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o03nmq_flt.fits as  OrIg_files/ib6o03nmq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o03npq_flt.fits as  OrIg_files/ib6o03npq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o04tuq_flt.fits as  OrIg_files/ib6o04tuq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o04twq_flt.fits as  OrIg_files/ib6o04twq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o04u7q_flt.fits as  OrIg_files/ib6o04u7q_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o04uaq_flt.fits as  OrIg_files/ib6o04uaq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o04ueq_flt.fits as  OrIg_files/ib6o04ueq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o04uwq_flt.fits as  OrIg_files/ib6o04uwq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o09h7q_flt.fits as  OrIg_files/ib6o09h7q_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o09h9q_flt.fits as  OrIg_files/ib6o09h9q_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o09hdq_flt.fits as  OrIg_files/ib6o09hdq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o09hwq_flt.fits as  OrIg_files/ib6o09hwq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o09i0q_flt.fits as  OrIg_files/ib6o09i0q_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6o09i3q_flt.fits as  OrIg_files/ib6o09i3q_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6oa8viq_flt.fits as  OrIg_files/ib6oa8viq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6oa8vlq_flt.fits as  OrIg_files/ib6oa8vlq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6oa8vpq_flt.fits as  OrIg_files/ib6oa8vpq_flt.fits
+[INFO    ] 
+[INFO    ] Preserving original of:  ib6ob8vtq_flt.fits as  OrIg_files/ib6ob8vtq_flt.fits
+[INFO    ] 
+[INFO    ] Executing serially
+[INFO    ] Setting up output name: F125W_drz.fits
+[INFO    ] -Creating imageObject List as input for processing steps.
+[INFO    ] Reading in MDRIZSKY of 0.572507949363
+[INFO    ] Reading in MDRIZSKY of 0.530652633336
+[INFO    ] Reading in MDRIZSKY of 0.557818861282
+[INFO    ] Reading in MDRIZSKY of 0.516989245311
+[INFO    ] Reading in MDRIZSKY of 0.508034479277
+[INFO    ] Reading in MDRIZSKY of 0.52220841949
+[INFO    ] Reading in MDRIZSKY of 0.500600126509
+[INFO    ] Reading in MDRIZSKY of 0.506686894794
+[INFO    ] Reading in MDRIZSKY of 0.506601872617
+[INFO    ] Reading in MDRIZSKY of 0.496605653855
+[INFO    ] Reading in MDRIZSKY of 0.501120603484
+[INFO    ] Reading in MDRIZSKY of 0.504867079834
+[INFO    ] Reading in MDRIZSKY of 0.496769769004
+[INFO    ] Reading in MDRIZSKY of 0.485535196755
+[INFO    ] Reading in MDRIZSKY of 0.518550550083
+[INFO    ] Reading in MDRIZSKY of 0.501827226885
+[INFO    ] Reading in MDRIZSKY of 0.496714214255
+[INFO    ] Reading in MDRIZSKY of 0.496482258899
+[INFO    ] Reading in MDRIZSKY of 0.508810307661
+[INFO    ] Reading in MDRIZSKY of 0.505533845444
+[INFO    ] Reading in MDRIZSKY of 0.499032623228
+[INFO    ] Reading in MDRIZSKY of 0.507248348328
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o03n9q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o03nbq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o03nfq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o03niq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o03nmq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o03npq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o04tuq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o04twq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o04u7q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o04uaq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o04ueq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o04uwq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o09h7q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o09h9q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o09hdq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o09hwq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o09i0q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6o09i3q_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6oa8viq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6oa8vlq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6oa8vpq_flt.fits[DQ,1]
+[INFO    ] Reset bit values of 4096 to a value of 0 in ib6ob8vtq_flt.fits[DQ,1]
+[INFO    ] -Creating output WCS.
+[INFO    ] Creating OUTPUT WCS from ../G141/G141_drz.fits[1]
+[INFO    ] 
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 3.42598763584752e-05 9.7673718843095202e-06
+[INFO    ] 
+[INFO    ] CD_21  CD_22: 9.7673718843095202e-06 -3.4259876358474997e-05
+[INFO    ] 
+[INFO    ] CRVAL    : 53.071129044685243 -27.709598577512789
+[INFO    ] 
+[INFO    ] CRPIX    : 620.0 519.0
+[INFO    ] 
+[INFO    ] NAXIS    : 1240 1038
+[INFO    ] 
+[INFO    ] Plate Scale : 0.1282500028610227
+[INFO    ] 
+[INFO    ] ORIENTAT : 164.08733290095458
+[INFO    ] 
+[INFO    ] ********************************************************************************
+[INFO    ] 
+[INFO    ] *
+[INFO    ] 
+[INFO    ] *  Estimated memory usage:  up to 496 Mb.
+[INFO    ] 
+[INFO    ] *  Output image size:       1240 X 1038 pixels. 
+[INFO    ] 
+[INFO    ] *  Output image file:       ~ 14 Mb. 
+[INFO    ] 
+[INFO    ] *  Cores available:         22
+[INFO    ] 
+[INFO    ] *
+[INFO    ] 
+[INFO    ] ********************************************************************************
+[INFO    ] 
+[INFO    ] ==== Processing Step  Initialization  finished at  17:18:09.998 (04/03/2019)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS common to all Processing Steps:
+[INFO    ] 	build :	True
+[INFO    ] 	coeffs :	True
+[INFO    ] 	context :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	group :	
+[INFO    ] 	in_memory :	False
+[INFO    ] 	input :	@F125W.lis
+[INFO    ] 	mdriztab :	False
+[INFO    ] 	num_cores :	None
+[INFO    ] 	output :	F125W
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	resetbits :	4096
+[INFO    ] 	runfile :	astrodrizzle.log
+[INFO    ] 	stepsize :	10
+[INFO    ] 	updatewcs :	False
+[INFO    ] 	wcskey :	
+[INFO    ] ==== Processing Step  Static Mask  started at  17:18:10.004 (04/03/2019)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Static Mask Step:
+[INFO    ] 	static :	True
+[INFO    ] 	static_sig :	4.0
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.572838;   rms = 0.045496;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.529549;   rms = 0.037833;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.557133;   rms = 0.041497;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.516897;   rms = 0.039881;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.509141;   rms = 0.037938;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.520270;   rms = 0.047441;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.500332;   rms = 0.043074;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.505067;   rms = 0.043647;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.505712;   rms = 0.043110;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.496372;   rms = 0.043585;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.499010;   rms = 0.041046;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.506075;   rms = 0.042828;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.499349;   rms = 0.039214;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.485114;   rms = 0.034386;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.518611;   rms = 0.043321;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.499986;   rms = 0.040242;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.497138;   rms = 0.042253;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.495708;   rms = 0.039192;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.509268;   rms = 0.044222;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.505776;   rms = 0.044990;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.499697;   rms = 0.044985;   static_sig = 4.00
+[INFO    ] Computing static mask:
+
+[INFO    ]   mode =  0.508259;   rms = 0.049042;   static_sig = 4.00
+[INFO    ] Saving static mask to disk: ./WFC3IR_1014x1014_1_staticMask.fits
+[INFO    ] ==== Processing Step  Static Mask  finished at  17:18:10.732 (04/03/2019)
+[INFO    ] 
+[INFO    ] ==== Processing Step  Subtract Sky  started at  17:18:10.735 (04/03/2019)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Sky Subtraction Step:
+[INFO    ] 	sky_bits :	0
+[INFO    ] 	skyclip :	5
+[INFO    ] 	skyfile :	
+[INFO    ] 	skylower :	None
+[INFO    ] 	skylsigma :	4.0
+[INFO    ] 	skymask_cat :	
+[INFO    ] 	skymethod :	localmin
+[INFO    ] 	skystat :	median
+[INFO    ] 	skysub :	yes
+[INFO    ] 	skyupper :	None
+[INFO    ] 	skyuser :	
+[INFO    ] 	skyusigma :	4.0
+[INFO    ] 	skywidth :	0.1
+[INFO    ] 	use_static :	True
+[INFO    ] ***** skymatch started on 2019-03-04 17:18:11.778638
+[INFO    ]       Version 0.9.8 (25-October-2017)
+[INFO    ] 
+[INFO    ] 'skymatch' task will apply computed sky differences to input image file(s).
+[INFO    ] 
+[INFO    ] NOTE: Computed sky values WILL NOT be subtracted from image data ('subtractsky'=False).
+[INFO    ] 'MDRIZSKY' header keyword will represent sky value *computed* from data.
+[INFO    ] 
+[INFO    ] -----  User specified keywords:  -----
+[INFO    ]        Sky Value Keyword:  'MDRIZSKY'
+[INFO    ]        Data Units Keyword: 'BUNIT'
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -----  Input file list:  -----
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o03n9q_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o03n9q_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o03nbq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o03nbq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o03nfq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o03nfq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o03niq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o03niq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o03nmq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o03nmq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o03npq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o03npq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o04tuq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o04tuq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o04twq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o04twq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o04u7q_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o04u7q_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o04uaq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o04uaq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o04ueq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o04ueq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o04uwq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o04uwq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o09h7q_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o09h7q_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o09h9q_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o09h9q_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o09hdq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o09hdq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o09hwq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o09hwq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o09i0q_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o09i0q_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6o09i3q_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6o09i3q_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6oa8viq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6oa8viq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6oa8vlq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6oa8vlq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6oa8vpq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6oa8vpq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    **  Input image: 'ib6ob8vtq_flt.fits'
+[INFO    ] 
+[INFO    ]        EXT: 'SCI',1;	MASK: ib6ob8vtq_skymatch_mask_sci1.fits[0]
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -----  Sky statistics parameters:  -----
+[INFO    ]        statistics function: 'median'
+[INFO    ]        lower = None
+[INFO    ]        upper = None
+[INFO    ]        nclip = 5
+[INFO    ]        lsigma = 4.0
+[INFO    ]        usigma = 4.0
+[INFO    ]        binwidth = 0.1
+[INFO    ] 
+[INFO    ] -----  Data->Brightness conversion parameters for input files:  -----
+[INFO    ] 
+[INFO    ]    *   Image: ib6o03n9q_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o03nbq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o03nfq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o03niq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o03nmq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o03npq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o04tuq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o04twq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o04u7q_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o04uaq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o04ueq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o04uwq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o09h7q_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o09h9q_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o09hdq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o09hwq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o09i0q_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6o09i3q_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6oa8viq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6oa8vlq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6oa8vpq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ]    *   Image: ib6ob8vtq_flt.fits
+[INFO    ]        EXT = 'SCI',1
+[INFO    ]              Data units type: COUNT-RATE
+[INFO    ]              Conversion factor (data->brightness):  60.7974316357
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -----  Computing sky values requested image extensions (detector chips):  -----
+[INFO    ] 
+[INFO    ]    *   Image:   'ib6o03n9q_flt.fits['SCI',1]'  --  SKY = 34.8565919573 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.573323   NEW MDRIZSKY = 0.573323
+[INFO    ]    *   Image:   'ib6o03nbq_flt.fits['SCI',1]'  --  SKY = 32.3270317263 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.531717   NEW MDRIZSKY = 0.531717
+[INFO    ]    *   Image:   'ib6o03nfq_flt.fits['SCI',1]'  --  SKY = 34.1088297764 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.561024   NEW MDRIZSKY = 0.561024
+[INFO    ]    *   Image:   'ib6o03niq_flt.fits['SCI',1]'  --  SKY = 31.6453497082 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.520505   NEW MDRIZSKY = 0.520505
+[INFO    ]    *   Image:   'ib6o03nmq_flt.fits['SCI',1]'  --  SKY = 31.0778901598 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.511171   NEW MDRIZSKY = 0.511171
+[INFO    ]    *   Image:   'ib6o03npq_flt.fits['SCI',1]'  --  SKY = 31.8357808878 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.523637   NEW MDRIZSKY = 0.523637
+[INFO    ]    *   Image:   'ib6o04tuq_flt.fits['SCI',1]'  --  SKY = 30.5597579039 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.502649   NEW MDRIZSKY = 0.502649
+[INFO    ]    *   Image:   'ib6o04twq_flt.fits['SCI',1]'  --  SKY = 30.8721375145 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.507787   NEW MDRIZSKY = 0.507787
+[INFO    ]    *   Image:   'ib6o04u7q_flt.fits['SCI',1]'  --  SKY = 30.8978991749 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.508211   NEW MDRIZSKY = 0.508211
+[INFO    ]    *   Image:   'ib6o04uaq_flt.fits['SCI',1]'  --  SKY = 30.3782757214 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.499664   NEW MDRIZSKY = 0.499664
+[INFO    ]    *   Image:   'ib6o04ueq_flt.fits['SCI',1]'  --  SKY = 30.5032482214 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.501719   NEW MDRIZSKY = 0.501719
+[INFO    ]    *   Image:   'ib6o04uwq_flt.fits['SCI',1]'  --  SKY = 30.9794530036 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.509552   NEW MDRIZSKY = 0.509552
+[INFO    ]    *   Image:   'ib6o09h7q_flt.fits['SCI',1]'  --  SKY = 30.3883136732 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.499829   NEW MDRIZSKY = 0.499829
+[INFO    ]    *   Image:   'ib6o09h9q_flt.fits['SCI',1]'  --  SKY = 29.6899150228 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.488342   NEW MDRIZSKY = 0.488342
+[INFO    ]    *   Image:   'ib6o09hdq_flt.fits['SCI',1]'  --  SKY = 31.5586138323 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.519078   NEW MDRIZSKY = 0.519078
+[INFO    ]    *   Image:   'ib6o09hwq_flt.fits['SCI',1]'  --  SKY = 30.5785582266 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.502958   NEW MDRIZSKY = 0.502958
+[INFO    ]    *   Image:   'ib6o09i0q_flt.fits['SCI',1]'  --  SKY = 30.2253328492 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.497148   NEW MDRIZSKY = 0.497148
+[INFO    ]    *   Image:   'ib6o09i3q_flt.fits['SCI',1]'  --  SKY = 30.1984206293 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.496706   NEW MDRIZSKY = 0.496706
+[INFO    ]    *   Image:   'ib6oa8viq_flt.fits['SCI',1]'  --  SKY = 31.0801514169 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.511208   NEW MDRIZSKY = 0.511208
+[INFO    ]    *   Image:   'ib6oa8vlq_flt.fits['SCI',1]'  --  SKY = 31.0110526208 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.510072   NEW MDRIZSKY = 0.510072
+[INFO    ]    *   Image:   'ib6oa8vpq_flt.fits['SCI',1]'  --  SKY = 30.6014208396 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.503334   NEW MDRIZSKY = 0.503334
+[INFO    ]    *   Image:   'ib6ob8vtq_flt.fits['SCI',1]'  --  SKY = 31.1309535997 (brightness units)
+[INFO    ]        Sky change (data units):
+[INFO    ]       - EXT = 'SCI',1   delta(MDRIZSKY) = 0.512044   NEW MDRIZSKY = 0.512044
+[INFO    ] ***** skymatch ended on 2019-03-04 17:18:13.787772
+[INFO    ] TOTAL RUN TIME: 0:00:02.009134
+[INFO    ] ==== Processing Step  Subtract Sky  finished at  17:18:14.485 (04/03/2019)
+[INFO    ] 
+[INFO    ] ==== Processing Step  Separate Drizzle  started at  17:18:14.489 (04/03/2019)
+[INFO    ] 
+[INFO    ] Interpreted paramDict with single=True as:
+{'pixfrac': 1.0, 'wt_scl': 'exptime', 'units': 'cps', 'kernel': 'turbo', 'wcskey': '', 'compress': False, 'stepsize': 10, 'build': True, 'fillval': None, 'coeffs': True, 'bits': 0}
+[INFO    ] USER INPUT PARAMETERS for Separate Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	False
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	compress :	False
+[INFO    ] 	crbit :	None
+[INFO    ] 	fillval :	None
+[INFO    ] 	kernel :	turbo
+[INFO    ] 	num_cores :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	electrons
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :	
+[INFO    ] 	wht_type :	None
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel turbo
+[INFO    ] Running Drizzle to create output frame with WCS of: 
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 3.42598763584752e-05 9.7673718843095202e-06
+[INFO    ] 
+[INFO    ] CD_21  CD_22: 9.7673718843095202e-06 -3.4259876358474997e-05
+[INFO    ] 
+[INFO    ] CRVAL    : 53.071129044685243 -27.709598577512789
+[INFO    ] 
+[INFO    ] CRPIX    : 620.0 519.0
+[INFO    ] 
+[INFO    ] NAXIS    : 1240 1038
+[INFO    ] 
+[INFO    ] Plate Scale : 0.1282500028610227
+[INFO    ] 
+[INFO    ] ORIENTAT : 164.08733290095458
+[INFO    ] 
+[INFO    ] Executing 22 parallel workers
+[INFO    ] -Drizzle input: ib6o03n9q_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o03nbq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o03nfq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o03niq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o03nmq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o03npq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o04tuq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o04twq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o04u7q_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o04uaq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o04ueq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o04uwq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o09h7q_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o09h9q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.573323 to ib6o03n9q_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o09hdq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.531717 to ib6o03nbq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o09hwq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o09i0q_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6o09i3q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.561024 to ib6o03nfq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6oa8viq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6oa8vlq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.511171 to ib6o03nmq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.520505 to ib6o03niq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6oa8vpq_flt.fits[sci,1]
+[INFO    ] -Drizzle input: ib6ob8vtq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.523637 to ib6o03npq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.502649 to ib6o04tuq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.507787 to ib6o04twq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.508211 to ib6o04u7q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.501719 to ib6o04ueq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.499664 to ib6o04uaq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.509552 to ib6o04uwq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.499829 to ib6o09h7q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.488342 to ib6o09h9q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.519078 to ib6o09hdq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.497148 to ib6o09i0q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.510072 to ib6oa8vlq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.496706 to ib6o09i3q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.512044 to ib6ob8vtq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.502958 to ib6o09hwq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.503334 to ib6oa8vpq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.511208 to ib6oa8viq_flt.fits[sci,1]
+[INFO    ] Writing out mask file: ib6o03n9q_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o03nfq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o03nmq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o03nbq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o03niq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 629787 points were outside the output image.
+[INFO    ] Writing out mask file: ib6o03npq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o04tuq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o04twq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o04ueq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o04u7q_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o04uwq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o09h7q_sci1_single_mask.fits
+[INFO    ] Writing out mask file: ib6o09hdq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o04uaq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o09h9q_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6oa8vpq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6oa8viq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6ob8vtq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] Writing out mask file: ib6o09hwq_sci1_single_mask.fits
+[INFO    ] Writing out mask file: ib6o09i0q_sci1_single_mask.fits
+[INFO    ] Writing out mask file: ib6oa8vlq_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] Writing out mask file: ib6o09i3q_sci1_single_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] stepsize = 10
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[INFO    ] stepsize = 10
+[WARNING ] ! 505392 points were outside the output image.
+[WARNING ] ! 589816 points were outside the output image.
+[WARNING ] ! 957024 points were outside the output image.
+[WARNING ] ! 948351 points were outside the output image.
+[WARNING ] ! 937842 points were outside the output image.
+[WARNING ] ! 921866 points were outside the output image.
+[WARNING ] ! 915670 points were outside the output image.
+[WARNING ] ! 853869 points were outside the output image.
+[WARNING ] ! 892774 points were outside the output image.
+[WARNING ] ! 497744 points were outside the output image.
+[WARNING ] ! 871095 points were outside the output image.
+[WARNING ] ! 817947 points were outside the output image.
+[WARNING ] ! 802912 points were outside the output image.
+[WARNING ] ! 588951 points were outside the output image.
+[WARNING ] ! 452435 points were outside the output image.
+[WARNING ] ! 389661 points were outside the output image.
+[WARNING ] ! 420206 points were outside the output image.
+[WARNING ] ! 292536 points were outside the output image.
+[WARNING ] ! 257167 points were outside the output image.
+[WARNING ] ! 360070 points were outside the output image.
+[WARNING ] ! 219797 points were outside the output image.
+[INFO    ] -Generating simple FITS output: ib6o03n9q_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o03nbq_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o03nfq_single_sci.fits
+[INFO    ] -Generating simple FITS output: ib6o09i0q_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6oa8vpq_single_sci.fits
+[INFO    ] -Generating simple FITS output: ib6ob8vtq_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o09h7q_single_sci.fits
+[INFO    ] -Generating simple FITS output: ib6oa8vlq_single_sci.fits
+[INFO    ] -Generating simple FITS output: ib6o03nmq_single_sci.fits
+[INFO    ] -Generating simple FITS output: ib6o09h9q_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o09hdq_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o09i3q_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6oa8viq_single_sci.fits
+[INFO    ] -Generating simple FITS output: ib6o09hwq_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o03npq_single_sci.fits
+[INFO    ] -Generating simple FITS output: ib6o03niq_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o04tuq_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o04twq_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o04u7q_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o04ueq_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o04uaq_single_sci.fits
+[INFO    ] 
+[INFO    ] -Generating simple FITS output: ib6o04uwq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03n9q_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03nbq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03nfq_single_sci.fits
+[INFO    ] Writing out image to disk: ib6o09i0q_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6oa8vpq_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6ob8vtq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09hdq_single_sci.fits
+[INFO    ] Writing out image to disk: ib6oa8vlq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09h7q_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03nmq_single_sci.fits
+[INFO    ] Writing out image to disk: ib6o09h9q_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09i3q_single_sci.fits
+[INFO    ] Writing out image to disk: ib6oa8viq_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09hwq_single_sci.fits
+[INFO    ] Writing out image to disk: ib6o03niq_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03npq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04tuq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04twq_single_sci.fits
+[INFO    ] Writing out image to disk: ib6o04u7q_single_sci.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04ueq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04uaq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04uwq_single_sci.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03n9q_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03nbq_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09i0q_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6oa8vpq_single_wht.fits
+[INFO    ] Writing out image to disk: ib6o03nfq_single_wht.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6ob8vtq_single_wht.fits
+[INFO    ] Writing out image to disk: ib6o09hdq_single_wht.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6oa8vlq_single_wht.fits
+[INFO    ] Writing out image to disk: ib6o03nmq_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09h7q_single_wht.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09i3q_single_wht.fits
+[INFO    ] Writing out image to disk: ib6o09h9q_single_wht.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09hwq_single_wht.fits
+[INFO    ] Writing out image to disk: ib6oa8viq_single_wht.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03npq_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03niq_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04tuq_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04u7q_single_wht.fits
+[INFO    ] Writing out image to disk: ib6o04twq_single_wht.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04ueq_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04uaq_single_wht.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04uwq_single_wht.fits
+[INFO    ] 
+[INFO    ] ==== Processing Step  Separate Drizzle  finished at  17:18:16.100 (04/03/2019)
+[INFO    ] 
+[INFO    ] ==== Processing Step  Create Median  started at  17:18:16.10 (04/03/2019)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Create Median Step:
+[INFO    ] 	combine_bufsize :	None
+[INFO    ] 	combine_grow :	1
+[INFO    ] 	combine_hthresh :	None
+[INFO    ] 	combine_lthresh :	None
+[INFO    ] 	combine_maskpt :	0.3
+[INFO    ] 	combine_nhigh :	0
+[INFO    ] 	combine_nlow :	0
+[INFO    ] 	combine_nsigma :	4 3
+[INFO    ] 	combine_type :	minmed
+[INFO    ] 	compress :	False
+[INFO    ] 	median :	True
+[INFO    ] 	median_newmasks :	True
+[INFO    ] 	proc_unit :	native
+[INFO    ] reference sky value for image  ib6o03n9q_flt.fits  is  460.341305557
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o03nbq_flt.fits  is  480.105976745
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o03nfq_flt.fits  is  450.465818618
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o03niq_flt.fits  is  417.931323215
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o03nmq_flt.fits  is  461.554309616
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o03npq_flt.fits  is  420.446294785
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o04tuq_flt.fits  is  403.594214494
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o04twq_flt.fits  is  458.498567425
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o04u7q_flt.fits  is  408.059952119
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o04uaq_flt.fits  is  401.197429837
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o04ueq_flt.fits  is  453.019995935
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o04uwq_flt.fits  is  409.137010829
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o09h7q_flt.fits  is  401.329998272
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o09h9q_flt.fits  is  440.94075114
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o09hdq_flt.fits  is  416.785826649
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o09hwq_flt.fits  is  403.842505122
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o09i0q_flt.fits  is  448.892526629
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6o09i3q_flt.fits  is  398.82213371
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6oa8viq_flt.fits  is  410.466906738
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6oa8vlq_flt.fits  is  409.554338176
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6oa8vpq_flt.fits  is  454.478009808
+[INFO    ] 
+[INFO    ] reference sky value for image  ib6ob8vtq_flt.fits  is  411.137837022
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Saving output median image to:  F125W_med.fits
+[INFO    ] 
+[INFO    ] ==== Processing Step  Create Median  finished at  17:18:23.27 (04/03/2019)
+[INFO    ] 
+[INFO    ] ==== Processing Step  Blot  started at  17:18:23.282 (04/03/2019)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Blot Step:
+[INFO    ] 	blot_addsky :	True
+[INFO    ] 	blot_interp :	poly5
+[INFO    ] 	blot_sinscl :	1.0
+[INFO    ] 	blot_skyval :	0.0
+[INFO    ] 	coeffs :	True
+[INFO    ]     Blot: creating blotted image:  ib6o03n9q_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.573323 to blotted image ib6o03n9q_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o03n9q_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03n9q_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o03nbq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.531717 to blotted image ib6o03nbq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o03nbq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03nbq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o03nfq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.561024 to blotted image ib6o03nfq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o03nfq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03nfq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o03niq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.520505 to blotted image ib6o03niq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o03niq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03niq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o03nmq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.511171 to blotted image ib6o03nmq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o03nmq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03nmq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o03npq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.523637 to blotted image ib6o03npq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o03npq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o03npq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o04tuq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.502649 to blotted image ib6o04tuq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o04tuq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04tuq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o04twq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.507787 to blotted image ib6o04twq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o04twq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04twq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o04u7q_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.508211 to blotted image ib6o04u7q_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o04u7q_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04u7q_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o04uaq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.499664 to blotted image ib6o04uaq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o04uaq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04uaq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o04ueq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.501719 to blotted image ib6o04ueq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o04ueq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04ueq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o04uwq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.509552 to blotted image ib6o04uwq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o04uwq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o04uwq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o09h7q_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.499829 to blotted image ib6o09h7q_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o09h7q_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09h7q_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o09h9q_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.488342 to blotted image ib6o09h9q_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o09h9q_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09h9q_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o09hdq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.519078 to blotted image ib6o09hdq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o09hdq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09hdq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o09hwq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.502958 to blotted image ib6o09hwq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o09hwq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09hwq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o09i0q_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.497148 to blotted image ib6o09i0q_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o09i0q_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09i0q_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6o09i3q_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.496706 to blotted image ib6o09i3q_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6o09i3q_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6o09i3q_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6oa8viq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.511208 to blotted image ib6oa8viq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6oa8viq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6oa8viq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6oa8vlq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.510072 to blotted image ib6oa8vlq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6oa8vlq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6oa8vlq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6oa8vpq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.503334 to blotted image ib6oa8vpq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6oa8vpq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6oa8vpq_sci1_blt.fits
+[INFO    ] 
+[INFO    ]     Blot: creating blotted image:  ib6ob8vtq_flt.fits[sci,1]
+[INFO    ] 
+[INFO    ] Using default C-based coordinate transformation...
+[INFO    ] 
+[INFO    ] Applying sky value of 0.512044 to blotted image ib6ob8vtq_flt.fits[sci,1]
+[INFO    ] -Generating simple FITS output: ib6ob8vtq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] Writing out image to disk: ib6ob8vtq_sci1_blt.fits
+[INFO    ] 
+[INFO    ] ==== Processing Step  Blot  finished at  17:18:36.070 (04/03/2019)
+[INFO    ] 
+[INFO    ] ==== Processing Step  Driz_CR  started at  17:18:36.074 (04/03/2019)
+[INFO    ] 
+[INFO    ] USER INPUT PARAMETERS for Driz_CR Step:
+[INFO    ] 	crbit :	4096
+[INFO    ] 	driz_cr :	True
+[INFO    ] 	driz_cr_corr :	True
+[INFO    ] 	driz_cr_ctegrow :	0
+[INFO    ] 	driz_cr_grow :	1
+[INFO    ] 	driz_cr_scale :	1.2 0.7
+[INFO    ] 	driz_cr_snr :	3.5 3.0
+[INFO    ] 	inmemory :	False
+[INFO    ] Executing 22 parallel workers
+[INFO    ] Creating output :  ib6o03n9q_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o03nbq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o03nfq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o03niq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o03nmq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o03npq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o04tuq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o04twq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o04u7q_sci1_crmask.fits
+[INFO    ] Created CR corrected file:  ib6o03n9q_crclean.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Creating output :  ib6o04uaq_sci1_crmask.fits
+[INFO    ] Created CR corrected file:  ib6o03nbq_crclean.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Creating output :  ib6o04ueq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o03nfq_crclean.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o03niq_crclean.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o04uwq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o03nmq_crclean.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o03npq_crclean.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o09h7q_sci1_crmask.fits
+[INFO    ] Creating output :  ib6o09h9q_sci1_crmask.fits
+[INFO    ] Created CR corrected file:  ib6o04tuq_crclean.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o04twq_crclean.fits
+[INFO    ] Creating output :  ib6o09hdq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Creating output :  ib6o09hwq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o04u7q_crclean.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o09i0q_sci1_crmask.fits
+[INFO    ] Created CR corrected file:  ib6o04uaq_crclean.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o04ueq_crclean.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6o09i3q_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6oa8viq_sci1_crmask.fits
+[INFO    ] Created CR corrected file:  ib6o04uwq_crclean.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Creating output :  ib6oa8vlq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o09h7q_crclean.fits
+[INFO    ] Creating output :  ib6oa8vpq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o09h9q_crclean.fits
+[INFO    ] 
+[INFO    ] Creating output :  ib6ob8vtq_sci1_crmask.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o09hdq_crclean.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o09hwq_crclean.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o09i0q_crclean.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6oa8viq_crclean.fits
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6o09i3q_crclean.fits
+[INFO    ] Created CR corrected file:  ib6oa8vlq_crclean.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] Created CR corrected file:  ib6oa8vpq_crclean.fits
+[INFO    ] Created CR corrected file:  ib6ob8vtq_crclean.fits
+[INFO    ] 
+[INFO    ] 
+[INFO    ] ==== Processing Step  Driz_CR  finished at  17:18:38.167 (04/03/2019)
+[INFO    ] 
+[INFO    ] ==== Processing Step  Final Drizzle  started at  17:18:38.185 (04/03/2019)
+[INFO    ] 
+[INFO    ] Interpreted paramDict with single=False as:
+{'pixfrac': 1.0, 'kernel': 'square', 'units': 'cps', 'wcskey': '', 'maskval': None, 'wt_scl': 'exptime', 'stepsize': 10, 'build': True, 'fillval': None, 'coeffs': True, 'bits': 0, 'wht_type': 'EXP'}
+[INFO    ] USER INPUT PARAMETERS for Final Drizzle Step:
+[INFO    ] 	bits :	0
+[INFO    ] 	build :	True
+[INFO    ] 	clean :	False
+[INFO    ] 	coeffs :	True
+[INFO    ] 	crbit :	4096
+[INFO    ] 	fillval :	None
+[INFO    ] 	kernel :	square
+[INFO    ] 	maskval :	None
+[INFO    ] 	pixfrac :	1.0
+[INFO    ] 	proc_unit :	native
+[INFO    ] 	stepsize :	10
+[INFO    ] 	units :	cps
+[INFO    ] 	wcskey :	
+[INFO    ] 	wht_type :	EXP
+[INFO    ] 	wt_scl :	exptime
+[INFO    ]   **Using sub-sampling value of 10 for kernel square
+[INFO    ] Running Drizzle to create output frame with WCS of: 
+[INFO    ] WCS Keywords
+[INFO    ] 
+[INFO    ] CD_11  CD_12: 3.42598763584752e-05 9.7673718843095202e-06
+[INFO    ] 
+[INFO    ] CD_21  CD_22: 9.7673718843095202e-06 -3.4259876358474997e-05
+[INFO    ] 
+[INFO    ] CRVAL    : 53.071129044685243 -27.709598577512789
+[INFO    ] 
+[INFO    ] CRPIX    : 620.0 519.0
+[INFO    ] 
+[INFO    ] NAXIS    : 1240 1038
+[INFO    ] 
+[INFO    ] Plate Scale : 0.1282500028610227
+[INFO    ] 
+[INFO    ] ORIENTAT : 164.08733290095458
+[INFO    ] 
+[INFO    ] -Drizzle input: ib6o03n9q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.573323 to ib6o03n9q_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o03n9q_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 629784 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o03nbq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.531717 to ib6o03nbq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o03nbq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 589818 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o03nfq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.561024 to ib6o03nfq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o03nfq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 505395 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o03niq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.520505 to ib6o03niq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o03niq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 452424 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o03nmq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.511171 to ib6o03nmq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o03nmq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 497736 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o03npq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.523637 to ib6o03npq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o03npq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 588936 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o04tuq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.502649 to ib6o04tuq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o04tuq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 292529 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o04twq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.507787 to ib6o04twq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o04twq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 389658 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o04u7q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.508211 to ib6o04u7q_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o04u7q_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 420240 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o04uaq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.499664 to ib6o04uaq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o04uaq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 360056 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o04ueq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.501719 to ib6o04ueq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o04ueq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 257138 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o04uwq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.509552 to ib6o04uwq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o04uwq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 219788 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o09h7q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.499829 to ib6o09h7q_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o09h7q_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 817987 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o09h9q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.488342 to ib6o09h9q_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o09h9q_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 802925 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o09hdq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.519078 to ib6o09hdq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o09hdq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 853878 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o09hwq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.502958 to ib6o09hwq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o09hwq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 915680 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o09i0q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.497148 to ib6o09i0q_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o09i0q_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 937842 points were outside the output image.
+[INFO    ] -Drizzle input: ib6o09i3q_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.496706 to ib6o09i3q_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6o09i3q_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 892779 points were outside the output image.
+[INFO    ] -Drizzle input: ib6oa8viq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.511208 to ib6oa8viq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6oa8viq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 871108 points were outside the output image.
+[INFO    ] -Drizzle input: ib6oa8vlq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.510072 to ib6oa8vlq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6oa8vlq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 921884 points were outside the output image.
+[INFO    ] -Drizzle input: ib6oa8vpq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.503334 to ib6oa8vpq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6oa8vpq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 957036 points were outside the output image.
+[INFO    ] -Drizzle input: ib6ob8vtq_flt.fits[sci,1]
+[INFO    ] Applying sky value of 0.512044 to ib6ob8vtq_flt.fits[sci,1]
+[INFO    ] Applying EXPTIME weighting to DQ mask for chip 1
+[INFO    ] Writing out mask file: ib6ob8vtq_sci1_final_mask.fits
+[INFO    ] Using WCSLIB-based coordinate transformation...
+[INFO    ] stepsize = 10
+[WARNING ] ! 948361 points were outside the output image.
+[INFO    ] -Generating multi-extension output file:  F125W_drz.fits
+[INFO    ] 
+[INFO    ] Writing out to disk: F125W_drz.fits
+[INFO    ] 
+[INFO    ] ==== Processing Step  Final Drizzle  finished at  17:18:51.834 (04/03/2019)
+[INFO    ] 
+[INFO    ] 
+[INFO    ] AstroDrizzle Version 2.1.21 is finished processing at  17:18:51.839 (04/03/2019)!
+[INFO    ] 
+[INFO    ] 
+[INFO    ]    --------------------          --------------------
+[INFO    ]                    Step          Elapsed time
+[INFO    ]    --------------------          --------------------
+[INFO    ] 
+[INFO    ]          Initialization          12.8134 sec.
+[INFO    ] 
+[INFO    ]             Static Mask          0.7280 sec.
+[INFO    ] 
+[INFO    ]            Subtract Sky          3.7495 sec.
+[INFO    ] 
+[INFO    ]        Separate Drizzle          1.6116 sec.
+[INFO    ] 
+[INFO    ]           Create Median          7.1699 sec.
+[INFO    ] 
+[INFO    ]                    Blot          12.7884 sec.
+[INFO    ] 
+[INFO    ]                 Driz_CR          2.0934 sec.
+[INFO    ] 
+[INFO    ]           Final Drizzle          13.6486 sec.
+[INFO    ] 
+[INFO    ]    ====================          ====================
+[INFO    ] 
+[INFO    ]                   Total          54.6028 sec.
+[INFO    ] 
+[INFO    ] Trailer file written to:  astrodrizzle.log
+[INFO    ] 

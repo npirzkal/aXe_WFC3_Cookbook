@@ -1,0 +1,731 @@
+SIMPLE  =                    T / conforms to FITS standard                      BITPIX  =                    8 / array data type                                NAXIS   =                    0 / number of array dimensions                     EXTEND  =                    T                                                  NUM_DRIZ=                    4 / NUMBER OF IMAGES DRIZZLED                      CONTAM  = 'FLUXCUBE'           / contamination model                            IMG0001 = 'ib6o23s0q'          / contributing image #1                          NRE0001 =                    4 / number of rejected pixels image #1             RFR0001 =                 0.26 / [%] fraction of rejected pixels image #1       IMG0002 = 'ib6o23rsq'          / contributing image #2                          NRE0002 =                    3 / number of rejected pixels image #2             RFR0002 =                  0.2 / [%] fraction of rejected pixels image #2       IMG0003 = 'ib6o23ruq'          / contributing image #3                          NRE0003 =                    3 / number of rejected pixels image #3             RFR0003 =                 0.21 / [%] fraction of rejected pixels image #3       IMG0004 = 'ib6o23ryq'          / contributing image #4                          NRE0004 =                    0 / number of rejected pixels image #4             RFR0004 =                  0.0 / [%] fraction of rejected pixels image #4       END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'IMAGE   '           / Image extension                                BITPIX  =                  -32 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                  185                                                  NAXIS2  =                   14                                                  PCOUNT  =                    0 / number of parameters                           GCOUNT  =                    1 / number of groups                               DATAMIN =                   0. / Minimum data value                             DATAMAX =                   0. / Maximum data value                             ORIGIN  = 'NOAO-IRAF FITS Image Kernel July 2003' / FITS file originator        IRAF-TLM= '2019-03-04T22:30:09' / Time of last modification                     COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H DATE    = '2019-03-04T22:29:57' / file creation date (YYYY-MM-DDThh:mm:ss UT)   CTYPE1  = 'WAVE    '           / grating dispersion function                    CUNIT1  = 'Angstrom'           / dispersion units                               CRPIX1  =                 15.0 / [pixel] reference pixel                        CRVAL1  =              10100.0 / [Angstrom] reference value                     CDELT1  =                 46.5 / [Angstrom/pixel] dispersion                    CTYPE2  = 'CRDIST  '           / cross-dispersion distance                      CUNIT2  = 'arcsec  '           / cross-dispersion units                         CRPIX2  =                  8.0 / [pix] reference pixel                          CRVAL2  =                  0.0 / [arcsec] reference value                       CDELT2  =             0.128254 / [arcsec/pixel] cross-dispersion scale          OBJECTID=                  358 / Object ID                                      NBEAM   =                    6 / Number of beam in object                       BEAMID  =                    0 / This beam ID                                   REFPNTX =            91.567000 / x coord. of reference point                    REFPNTY =            41.164000 / y coord. of reference point                    C0X     =                  106 / x coord. of 1st bounding quadrangle corner     C0Y     =                   39 / y coord. of 1st bounding quadrangle corner     C1X     =                  287 / x coord. of 2nd bounding quadrangle corner     C1Y     =                   40 / y coord. of 2nd bounding quadrangle corner     C2X     =                  287 / x coord. of 3rd bounding quadrangle corner     C2Y     =                   49 / y coord. of 3rd bounding quadrangle corner     C3X     =                  106 / x coord. of 4th bounding quadrangle corner     C3Y     =                   47 / y coord. of 4th bounding quadrangle corner     BB0X    =                  106 / x coord. of 1st bounding box corner            BB0Y    =                   39 / y coord. of 1st bounding box corner            BB1X    =                  287 / x coord. of 2nd bounding box corner            BB1Y    =                   49 / y coord. of 2nd bounding box corner            WIDTH   =             2.064000 / Width of object in pixel                       DRZWIDTH=             2.064000 / Width of object in pixel                       LENGTH  =                  185 / Length of object in pixel                      OWIDTH  =             2.000000 / Maximum width of object in pixel               ORIENT  =           -89.452000 / Orientation of object in deg. wrt y-axis, CCW  IGNORE  =                    0 / Ignore flag for this beam                      OREFPNTX=           166.124000 / x coord. of reference point                    OREFPNTY=            86.370250 / y coord. of reference point                    RREFPNTX=           -14.433000 / x coord. of refpoint in stamp image            RREFPNTY=             3.139000 / y coord. of refpoint in stamp image            WAVPNTX =           -39.709228 / x coord. of reference point                    WAVPNTY =             0.922132 / y coord. of reference point                    XOFFS   =            15.000000 / x-offset after drizzling                       LAMBDA0 =         10100.000000 / wavelength drizzled to                         DLAMBDA =            46.500000 / wavelength increment drizzled to               SKY_CPS =             0.873630 / electrons per second in the background         CDSCALE =             0.128254 / pixel scale in cross dispersion                SPCORR  =             0.971103 / correction factor resolution                   SLITWIDT=             1.000000 / slit width [pix]                               DRZ00   =        -1.387747E-01 / drizzle coefficient (0, 0)                     DRZ01   =         9.710583E-01 / drizzle coefficient (0, 1)                     DRZ02   =         9.287753E-03 / drizzle coefficient (0, 2)                     DRZ03   =         0.000000E+00 / drizzle coefficient (0, 3)                     DRZ04   =         0.000000E+00 / drizzle coefficient (0, 4)                     DRZ05   =         0.000000E+00 / drizzle coefficient (0, 5)                     DRZ06   =         0.000000E+00 / drizzle coefficient (0, 6)                     DRZ07   =         0.000000E+00 / drizzle coefficient (0, 7)                     DRZ08   =         0.000000E+00 / drizzle coefficient (0, 8)                     DRZ09   =         0.000000E+00 / drizzle coefficient (0, 9)                     DRZ10   =         1.852027E+00 / drizzle coefficient (1, 0)                     DRZ11   =        -9.568562E-03 / drizzle coefficient (1, 1)                     DRZ12   =         9.999542E-01 / drizzle coefficient (1, 2)                     DRZ13   =         0.000000E+00 / drizzle coefficient (1, 3)                     DRZ14   =         0.000000E+00 / drizzle coefficient (1, 4)                     DRZ15   =         0.000000E+00 / drizzle coefficient (1, 5)                     DRZ16   =         0.000000E+00 / drizzle coefficient (1, 6)                     DRZ17   =         0.000000E+00 / drizzle coefficient (1, 7)                     DRZ18   =         0.000000E+00 / drizzle coefficient (1, 8)                     DRZ19   =         0.000000E+00 / drizzle coefficient (1, 9)                     EXPTIME =             4211.742 / exposure time                                  NDRIZIM =                    4 / Drizzle, number of images drizzled onto this ouD001VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D001GEOM= 'User parameters'    / Drizzle, source of geometric information       D001DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_flt_ID358.fits' / Drizzle, inD001DEXP=             1002.935 / Drizzle, input image exposure time (s)         D001OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D001OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD001OUCO= '        '           / Drizzle, output context image                  D001MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_wht_ID358.fits' / Drizzle, inD001WTSC=             1002.935 / Drizzle, weighting factor for input image      D001KERN= 'square  '           / Drizzle, form of weight distribution kernel    D001PIXF=                   1. / Drizzle, linear size of drop                   D001COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_flt_ID358.coeffs' / Drizzle, D001XGIM= '        '           / Drizzle, X distortion image name               D001YGIM= '        '           / Drizzle, Y distortion image name               D001LAM =                 555. / Drizzle, wavelength applied for transformation D001SCAL=                   1. / Drizzle, scale (pixel size) of output image    D001ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D001XSH =                   0. / Drizzle, X shift applied                       D001YSH =                   0. / Drizzle, Y shift applied                       D001SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD001SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D001EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D001INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D001OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D001FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD001INXC=                 92.5 / Drizzle, reference center of input image (X)   D001INYC=                  7.5 / Drizzle, reference center of input image (Y)   D001OUXC=                 93.5 / Drizzle, reference center of output image (X)  D001OUYC=                   8. / Drizzle, reference center of output image (Y)  D001SECP=                    F / Drizzle, there are no secondary geometric paramD002VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D002GEOM= 'User parameters'    / Drizzle, source of geometric information       D002DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_flt_ID358.fits' / Drizzle, inD002DEXP=             1102.936 / Drizzle, input image exposure time (s)         D002OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D002OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD002OUCO= '        '           / Drizzle, output context image                  D002MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_wht_ID358.fits' / Drizzle, inD002WTSC=             1102.936 / Drizzle, weighting factor for input image      D002KERN= 'square  '           / Drizzle, form of weight distribution kernel    D002PIXF=                   1. / Drizzle, linear size of drop                   D002COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_flt_ID358.coeffs' / Drizzle, D002XGIM= '        '           / Drizzle, X distortion image name               D002YGIM= '        '           / Drizzle, Y distortion image name               D002LAM =                 555. / Drizzle, wavelength applied for transformation D002SCAL=                   1. / Drizzle, scale (pixel size) of output image    D002ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D002XSH =                   0. / Drizzle, X shift applied                       D002YSH =                   0. / Drizzle, Y shift applied                       D002SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD002SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D002EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D002INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D002OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D002FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD002INXC=                 92.5 / Drizzle, reference center of input image (X)   D002INYC=                  7.5 / Drizzle, reference center of input image (Y)   D002OUXC=                 93.5 / Drizzle, reference center of output image (X)  D002OUYC=                   8. / Drizzle, reference center of output image (Y)  D002SECP=                    F / Drizzle, there are no secondary geometric paramD003VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D003GEOM= 'User parameters'    / Drizzle, source of geometric information       D003DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_flt_ID358.fits' / Drizzle, inD003DEXP=             1002.935 / Drizzle, input image exposure time (s)         D003OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D003OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD003OUCO= '        '           / Drizzle, output context image                  D003MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_wht_ID358.fits' / Drizzle, inD003WTSC=             1002.935 / Drizzle, weighting factor for input image      D003KERN= 'square  '           / Drizzle, form of weight distribution kernel    D003PIXF=                   1. / Drizzle, linear size of drop                   D003COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_flt_ID358.coeffs' / Drizzle, D003XGIM= '        '           / Drizzle, X distortion image name               D003YGIM= '        '           / Drizzle, Y distortion image name               D003LAM =                 555. / Drizzle, wavelength applied for transformation D003SCAL=                   1. / Drizzle, scale (pixel size) of output image    D003ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D003XSH =                   0. / Drizzle, X shift applied                       D003YSH =                   0. / Drizzle, Y shift applied                       D003SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD003SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D003EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D003INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D003OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D003FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD003INXC=                 92.5 / Drizzle, reference center of input image (X)   D003INYC=                  7.5 / Drizzle, reference center of input image (Y)   D003OUXC=                 93.5 / Drizzle, reference center of output image (X)  D003OUYC=                   8. / Drizzle, reference center of output image (Y)  D003SECP=                    F / Drizzle, there are no secondary geometric paramD004VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D004GEOM= 'User parameters'    / Drizzle, source of geometric information       D004DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_flt_ID358.fits' / Drizzle, inD004DEXP=             1102.936 / Drizzle, input image exposure time (s)         D004OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D004OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD004OUCO= '        '           / Drizzle, output context image                  D004MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_wht_ID358.fits' / Drizzle, inD004WTSC=             1102.936 / Drizzle, weighting factor for input image      D004KERN= 'square  '           / Drizzle, form of weight distribution kernel    D004PIXF=                   1. / Drizzle, linear size of drop                   D004COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_flt_ID358.coeffs' / Drizzle, D004XGIM= '        '           / Drizzle, X distortion image name               D004YGIM= '        '           / Drizzle, Y distortion image name               D004LAM =                 555. / Drizzle, wavelength applied for transformation D004SCAL=                   1. / Drizzle, scale (pixel size) of output image    D004ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D004XSH =                   0. / Drizzle, X shift applied                       D004YSH =                   0. / Drizzle, Y shift applied                       D004SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD004SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D004EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D004INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D004OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D004FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD004INXC=                 92.5 / Drizzle, reference center of input image (X)   D004INYC=                  7.5 / Drizzle, reference center of input image (Y)   D004OUXC=                 93.5 / Drizzle, reference center of output image (X)  D004OUYC=                   8. / Drizzle, reference center of output image (Y)  D004SECP=                    F / Drizzle, there are no secondary geometric paramEXTNAME = 'SCI     '                                                            EXTVER  =                    1                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ªyaQºM*º~$º*Úº$ò<ëöÍ<è›>ºÜ‹|ª≈@;ò√πΩ0Tbº œºF6§Ω‰,ºwJYΩWÔºjv=Aå<öO›<r2d<Ç≠ªÛéwºÔ‡˜<êÌ\="!I;æÀ&;
+6WºIóÁº^vÆ;Ÿ»úΩ76˛ΩY˛wº÷EΩ∆ÏΩÀ•ºåÒ¢Ω/‚º∏rŸº‡xºø˛ÙΩzSºW·i<"@⁄=R⁄<CÅ$<°j’=Ü „ºÄùEº/r<£Qòº√;<◊◊DΩãÒ=6ÕÂ<≠˘≈:íœÛº2RB                            ºSrwºT’*∫Wq…=S√™=
+‡N= Ëuªö∆º¥ö%ΩD@ºÆQ;BèjΩπ˛º€ï®ª[À0;È¶kªŸ‚Áºÿ#Hª/åÏºlºLÛºãFJºßï ºÆt¡ªi_4<ø‘ºæo…º#u·<ó3 ∫ì˜º©SG;¢ó¢ºû…7∫ırÑºÇ•Ω7ˆSº©(ÂºÅ∆iª¢QºÊm¨Ω’©Ω0"M<BD;»ÇŒ<^0
+∏ê®º´®±ºÔ˚ÄºÚè∫º4:ºa´îΩ üº?qhºVCΩºŸÙ^º†ı}ºµ$9ºo<<J¸<”b•;Ç5˚ªî÷ª‘+ª€ªp«X;ÁNºÙ’ªc’2ºBŸ}<ä›ºin®;Îëe<f‘Îº<ÿ;kÕV<EÄ2<≠Åºîk”Ω	Êº^ó;ZÇiªôJh=QÒª™©-Ω`'Ωyéº¯ÃººIÇº—§;õ6<|ÇcºôπOΩ"kΩU\Ωq@ºy•Ω)*tºÊ5‘∫2®<‰XL<"´E<i¢gº$≈_Ω3ª∑Ω"êºyü=<‡<¿Zã<¥˘Î<Ÿ[
+;t,Uª…><~¶D<y6r;"SQ;nR`;^¥ºŒ¯`Ω4≠∫FDºc∆¨;Âí3º•É∫ºmDD;˜Ò;qÁ√<ZA;Œ±¥<:áQª•ñà;âŸjº]£ëºÇ∆ô;Ë9	ºHÄÕ9Èﬂ:ûºr‚8∫Ä7"<~‡<®ã™º,) º¨'Cºº‹.º£<Éd<˜≥ΩáôªﬁZfºÀ¶Hº:ª∑πcıΩ†º8?HºÑBâ∏t[:/îÖ;ﬂºı–ºﬂß≈ªNIª¨Ìº
+œ;∏<ûŸû<§Nª™≥…º®“ÍªM|~;≠ò‚<£	Ó;‰dÆºæ<P8 ºq0:Ñ7Cªqƒ4ºÚiÛº}w,=…ˇ                        ∫Eq<?√<2U}<ˇÚ <«((<Ïòûª!’ªÍ’åº¡C';ÈØ›;î®`º£ÍºAâÏ;l¬Cºå`Dº»µLº–√<x„òº‡¯Tº¿ﬂ˜ªﬂñ<©º>ÿº.p'<„N£º†ºa’x∫ü2;5†åª4;Œwª∏hîº °9ää«ºZ¿ºµ≤Âº†Ñ;œËÕº≠$uºn—Ïº∏2Hª—+º1<Ó9π˙∫6–€πB!ºPXºÑ¶f∫ÜëHªù*Öª˜‡ºõÊwºöÄ!º‚ÈºMô º´Ç1ºè‚Ê;∑¿Ú< ŒË8Tù!ª””Î∫ü4Ÿºµ<ïA<J£ªÅ(Ù;êE><-‘ºçeËºÉp3º[ø<äOY<á⁄';ûèöªp3≥:7rº∫ç«≥ªÍ†òºª∂ªº›1«º«*:áë#º/ΩF Ω´N<(8;íﬁ¶ºc'ª∏ÌøÕ;3(UºåÙBºæJ„ºÈ≈\ª∏Ë;ÑùÖº™·¬Ωƒ˚<l™<@^:Dàª£ Îª…∞.ºÙ[ºÊ¬ºWUÍºk£ª≤¯ü<(⁄∫∏™≥ª6&,ª4ÕØº‹)ºXﬁ<VÂLº∫N ª±«ˇº§G†º5(<S∆{ª–√áºHI=ºkaaº5ga<ô◊º,-∫o’º,bªcåÕ:µÀ„:≈Wyº∆3EºÕΩ≥ªÒªÖ=M;∞ÑªT‘œª«Ä:Ö¢p:Ãø<<jäª˛%/ºTÔ.ºa”ÿ;√V∞ªXºO√=ºpiº„aºì'€∫øG›ºö
+˛ªSuBªÆÄ¢ºÜd≈;ù“≥ªΩáª€+Eº∏±èΩSºZ%∫º\X:∫˘º7˘º|Ó:B-Dº•>∏ºÃÄ∫Ó‘ºÄR;‚)º˝;ågy;¿óº8õπºõsÅº:˛eª]T<t2=Aáq                        :ÎWÒ<>º{Ü;ïGÈ;ÌÖ;“Ç;Ï+º|`ô:¥ˇ¸:¬q£ªœ–∂ª˙iºô>¨º°_ç9‡›€ºw0ûºAí™ªó>Óº
+û”º-¢G:º);è9ºïè5<Ôq}ª¨£‹<Äë*;(' 9!∑1ª›øÎ;ºÁ,ºä{¬ºT⁄ºùJ˚ª≠“;ûºÖÇﬁºîÃâ;Ø¥Ô;ØàJªΩâª=˚≤;»´;≤é<zx˝<`√ã;Ω27:Shb;Vsc<Ω¿°=V1<çZ»º#hãªÔ’:≈Õºf+Ôªê#E;F?d<œwÛ;&wº<D"8⁄fÑ=§;ªY<ÃÃ‹º UÂª÷µ∏;òûi<ß˚Jº≈¸Rºêy%∫«CÒ=£C<ÌTï;î≈äªkPGªn%…<ìnΩªáJº‰Ìº óƒ∫¢b∫YK÷ºêÔFº=yºï≥3ª…{Ÿ;∂3 ;ÒBE<-dﬁ=_S:ﬂ≤ﬁºJ´πS;ƒ∫â^J<•Q6<√º"ª3'7ªyàNªS¿<âC<KKº7Ω/owº*˜™<ﬁÀûºåﬂº£èi<2∞<ΩÌdº~ÙL;:Åúºê·˙ºˇ<ªn+º™¿á<Çﬁ2<Ê∞Xπ1âç<öÍªxﬂºi†«:µÅ[;£0Ã<,cFª‘W¯ª%xŒºTc"∏áJ;|$´<B£∫¬/ì∫›_º		uΩ	ì1ºéµûºX>ºr'º;“;«âr<>◊;âäDºö|ªˆΩª§£yªÒâ›Ωﬁçº  ºÅZOºÅÁªF)öªõ62:•Y:º´[Éº™P'ºtŒHΩ≤ªáµ‹9rw	ºﬂRlº<p≠º3/c;™ªôºÃüV;æOºmUBºï÷º†ö£º∏˚8Z¸Î<zäÚ9écU∫™jº	Ìuº
+H·ªæ◊;
+∑`<,õ<Ú,®                        <‹ÿ⁄<Ë.<1oà;V(ºvº˙m∫àZÃªŒ≠¯=∫ö=Dˆ<aLõª¯ı¨ºP∑< àëª·ãˆºâ§,ª‡S˝ΩQIΩ´Ôº÷6∂º^;ªÙ´<=Œ¯<}Ñrº0 ˛;r¡.<bª∂r'<Ä˝«ºtª*y›;÷f±ªÎ∫ª†êªôÄ„<ΩΩ;QF%ºrà8èªØ®OºLºÆl˝;ªût<ßÅ‡<8›È;¿=ö;ç‹˚<*ÚÊ<{˚‘<Ò}<»Æ/<â_pª›iªöˇª <ﬁ◊„;¥ƒj<iπ<tÌD;ÙEU=Nw<ãùc<Ø[É=	ˇb;¯™Å;å]•;ãq<`àº@2ãºUu8ºxÔœª•KÚ<G⁄\<¯ì;ÃÄh;qO˙ªeÆAªâﬂÄªs)Eº&);Éˇ·;ÿ˝àº\º>V§<´ài=ñ¥;é\√:®7;K]?<ö≈≠<i _:Õ”é;∫ªa‡<#>å=}h<®<2ù<Ñd¢ªäÇ8∫ÔΩﬁ<Z;ªõ	∫◊=G=.uü;Ë¶zºv˝t<ÅÂ«<Nö≠ºfôøªTÈ√ºã`ºã≤ªßxºwÍ≈:⁄ÓÆ=:+å;®Î<ﬁî< Â;„¨º+™;ûãﬂ<]∂µ;~”<P:ºá!GºóhÔ;¡+˝<E±Q;÷&e<ß,æ∑∑™Ω´“9p—;ù@Å;œõNºMWº‘?ªØ/:¡ífª
+rﬂ:ô;Bª≠E≠ªUWqªıuí<_^àº,àtª|PºPºQ˙aºD[˝ºé
+Mº“∞ÎºıñºÑ4¡ºåï.ºµ_π∫).‰;%ôö<~U.;é¨*<M"ªµÄ‹ΩÏ>ºk'#º)áTªNœøº∏PÉ<úø;Ïëw<¨»¸;‹ùhºõ†9º]Aªÿâ ª ëLºHá”º+Œâ                        ªa?,:àaÆ;ÜıRª\ˆkªΩm¡ª·S;óÍ~;án<e´
+<$ªˆ<üaˇ<åEf:Â1ªíÖºÉO∞<f)∫≠fKºÏ7~ºT)°º1öº«ô;;â∫‰ûˆ<UkÉºTﬂ±º$/∑<Œ—<z©Ë∫I”ºïYnºàb`∫∆≠;·Zt;f5ºá[M∫ˆd•º#´ª‰à<æ°æ;£˙ˆ:∫ﬁ< eïª»Qª·ñ∫åÌË;˘åºCl;zÔƒ<£kc<<,<´w=Mâ¬<[FÎ;˜ˇˇ<	üs<ç{ó<≈ù< ∂Ω;˙‚Üº	˛n<éÚ	<Åë<Ñr9©“6ª¥{ªó§Òºë<™:è<‚Ôº;'<ö9ª¥˙Îªû¶;+‡ü:∏Ä¨:4®I<Dl‡∫¢“<A<p„·ºáã‡<≈ë7ºìÃº∆N√</•¥<º  ªQ2ö:ëM9<%‡';Ûo’ª@»<#;¨®z∫µ=Í<PÈ≥=<¬Ä;õ$l;Ã Ì<Ñ;ØKpª$ö:≤{g;åºaª÷¨¥9Úp<¸√ºchÚº?œ=2÷[<÷^Jº"®n<Ñ∫<n)<`ê»º∂äÔºªzªO∞ã;ÿ‘V<[˚<ÿ`3=Tˇ#<¶2&:|∏Dª=I<√&;∂UXªx&π#˙°<4≤¢<0VªáΩtº3ŸÂªœ3ºV¥º(<~«?<K+ºr3ºYÎ∫ºG{S97h<]ÊÈπ{CªI›»;≥cÓºk€Dºy˙ºö≤¸ºæQ÷º¶ŒKºsdºõŸ∫Ÿu^ΩMJΩ$^K<BÍ´:ﬂãÑªÈ$X<'≥;ßÇèªﬂêºÊº>Vüºíaºπw)º;ºªpöA<I[ΩÀx<N?n;àB<ÿ<<äàTºc¥º}Sûª…≈1;Úd;e¢ºç•                        ºSıaª£Q_º≈7pº:≠<;»WªcZ¥º}8Z;c®^∫∫t≥º‹Ω;º$¢˘;"≥ ªù7≈;61Ÿº8òª°\·ºˆEbºà≤äº–;æ4;√EQºêßq<('§=R+<uºÑ';¥B<≤“‰ª
+”<GUΩO‹; ©‚<¯Ú<j-<kñ/;Æ^ªtÚä<ÅÈ= ?<;ó;v∫Häé<ìµ[<JÈg<œ±c;ãzK∫ﬁ?ºöÚıº·Û;˜eí<Å⁄<¶4N<∑Øº<£»^<\tv;üÖ;¥QD<ü13ª©t;ENñ:ÇY\<?4ªè/zºˇ6;ü_y;É∫ª,m;ò«Íªüë|8‹Ï<ïØ—<üµ∫óC–ºôqíºGØ˙ª(•*ªò ¯<∑cç='ì=+ë=0 Íº8j◊ªûûª∫îŸªæ`k<?¶n;j#w:ü¬<?rc<‘’ñªJ<Äd;Ãøï;êµv<ùÆÿ<ñî˘ªáUá;ÏNÂ<W%ü<›¸=ªXàh<MqÀ;’w<i±Ñ<PA<Éq$;u<∏;ë∏==≥É<4Tá<l	l<ôq•<â@a<3∑Œªî¬ôªûŸmºCó¶<—ç∑;Êª7<h∫
+=’wª˝w"<®Êæ∫O¸E<É≥ªÑñ£π·-aª§ñª'^·ªú≤»ª±O7∫˜Áá:≠.5:ÅL:ºl¿ò;ùõc;ﬂ[⁄ª}™!<âªC@Æ;ÒùT<(@L9˚E‚<âÈ<hoMº™˚º
+!<j@Hºnîo:ôü®<Ä‡≠<@ﬂ:«ï¯<ee„ºïrù∫ö@Ô<G%ìªå¬
+ªÜBº§ ∆ºàS
+ºõ>
+ºàŸeºâ[Hº´ÙJºqûpº†˘ìºU’“:∂§õ∫ÙÍDª2–∆<©‚¥<çA˜;eÖ∫Ñjk<Nªd<Ω+¢=
+„=∆                        ;πmú<[ªÅúÒºn√H;¡Ù< ¢¶8¥Õs<§Œ~;w3Áª≥Tº>ÔM;í(ñ<ÅÊ-<∑Ë<IÉ◊∫H	™º$@¶;∑µÂ;áºu∫=∫;y"Ω-âº@Uê;¡ÍXª^∂€;é∏◊:÷"#;•˙<∑h<∫xnªí§îºÜŸ™<XN«º]p•ªZ^<OÁ6<$ìªõ∑;¯Yú∫≥ÿ%<é`¯<éΩ∆<ç§;ë—{;a¸;é«X∫€dH;÷Û%<’Ø"<°¨<°ÚÍ;¯R<Áë°<ºÁ˝<ìP≈∫Ëõ∆<@©n=@Ñ<Î›Û9Ü(˘<ñÔ˙<2ŒÁ<dÅK<ºƒ˘<àO;˛;º=ª_D{∫µ”ö<c≈ÊºJ!;X*√<∑#å<‡Ì==ôË<ﬁ:yº7˛=%†5<œmô<˙˛¢<ÇQﬂª|‘À9Íö%<ìÏ~=<AC<ã≤ªæn˜9=3b<µV~<ÒG<Â’€<õ>;7€¯<øiæ;êFÅ<!ƒ¡;˙éÔ<ÎΩL<<ªë<i<Ãó?<`P«ª‡rV<Wæl;˝Ák;∞À<®∞¯=¡ª<;	*;£õ+:C\Ω;–S<´®<L°±;mÙ9Æì˙<È:Ê<ÈÛvªˆ¿Ø∫Ô-≥;pƒ5<f’b=,3Y;€t<ùóª¯g9;∞}|∫€˘º,Jy;¸Ñä;*/ºπ9ªêô˙;ÊÙ'∏‹W´<ÖÁª£Ù˙<BÛ€<:ùº|¶B:⁄|v;f«2<s∑Ö<≠–∫ÛÎyΩ(àºb£Ôªá‹º£•ºô8<ÑK5='ã;Çz0<≈…ºÙ;œ•ï<”ﬂÛ<?|‘ºè:)ºíùXº^ÎjºBIí:ÌMC<i0√;ÎQ;˚UUπÑ–ñª ºùRªË9ºsçh9†üŸ= q;˚:_<V8™ªì£&∫∫SW<ïúªµx                        ºÇò:ª˙Péª™¬»∫Ú·Ø:úx=ñ¡<<¢î<i-;˜¨;Ë$sª?•ï<ç¿&ªÓ?;¯≠Æ∑°?<4¿Q=æ>ºœƒiº>ae:ùã<8≤ç:GÄ <1A;∑ÿ<Ä&ñ<¥Æ.<ß€º<Z¶Pª˛!∫rè@9±ô<<üï<Ï∆p8ê…ÿªˇnú:Ë≥⁄ªµñqº	@+:âZª<êv∫∆Økª‡uF;À]2<à∏<å¶<Ç—Fª•<ï∏‘=1¬<v„<îı6;º!¸<ú';ƒ…;ÍÑº4
+øªŸ¬*<í3Ò<Bì/∫∆û†<é∫Æº	‹L<ˇ"<†ba<H<º<∑”j<;á<kºèº'Ôº;˚Ë;ÚNº{áQ<vﬂ£<õ£◊∫©êW<ÉÖÖ=Öo<¬Btª¬q-<#ˆc;Òµµ<Ä≥<éT{ª˙8ß<|fÉ<ö
+:ƒªπ˙^B<≤∞^;ìµº1á˜º”ª–≠ª}Ò<ìeó<=Zf<¨VºO Y<Q/v∫«hgπº≈%<mÄyºh∞Âº¢»<"Ôª)ÿ<ÜáU<Æ=ªŒÑC<øﬁª¨=Üº+3±π˜˜+;ó±B<Ç<@$º`!ÌªSF¢º}6◊ªÔ∏4< ‰ªa´Ú; «Ò;2a,;‡ÿ¶<d!¿ªÏ∏ã;˛Õ;˛Ø’;õß[<¶π
+<|Â3ºWºråëªÜ~Ÿ:π≤:”Èeº;∆fª ‘:§åÛ<ªå\s;UŒºπ”pºhk†ºâ±3º®ª;;±s8<°j<YÈµª Ëº¶“-ºÍçµº]ÿ–:X/ºª√ØªøZ®ªKA„ºiàØ:»Éa;Iª¶í}ºGl%ªóÏ;)DÖ∫#Êπ|ÂFº=-;¥©p<Û˙ªó)é<O¢ª„H?;÷…öªÛªWºKD¿                        =
+ ‘:"üAº:]ªPœªŸË;ã∆LºWΩË<FR:∫†ã:˚vΩ<TI; ﬁÑ;Œ›ªÀgä;ÍE<Z£dºòÊºÚÓ^<[:„ <'{¥;dÉª™ƒv;∂∂;)⁄è<0k©∫É^ <#§‚:∂Á¨º4	;0Ω<˘˛;‘˙Ãº[ÏôºÃyD∫≈ú∆<Ûªã\5ª¢$‹<1ãïªGät<g–y<ﬂ—ª<&CµºJ§¡ªìbzº.ô˝<0∑<ò-ƒª„©ªòrq<øô<µlõ<"ÃBª˝Úvºêœ?ºàø·;¯≈#<7.ﬁ;éÑ‡;•‰L;≈∂˝ºg\åªêáSªÁÙº≤zŸ;ŒÛ.<Ññ:®€ßºØó;<ûqªÏ⁄qªÎ–9º@¡a;2;yìw;´cΩ‚æ<-·ñ;
+≤;Ô[Ω&√8º-Xº-◊Õ<Õﬁ-<3cœ<]ë<˙¯‹<;@Oº¥ê:©UBº√Ö¶ºKk::MÇº‘˙;∏âÓ<»wª‡
+ºØSJ∫°I€=Éﬁ<ØgS<-Ú <'Heª—Âß<A<%éG;;›ª0€„º
+x ºÔºy1√;tL´;£w”ºƒ…º`Àﬁº¥◊˘º¨Snª¨⁄†<í:qªeΩ;‰ùÜ∫å<ÑÖ3ºA;‡°<ë;ƒ" <¿?A<	⁄<ø2<pÜä<ù∫¡πﬁ8øº[W≥º§◊ﬁºVÀ ;[QÎºóq†ºåà_;¸d6<§œHª–©ª4∏º¥cÕ;î€º˛≥Œ;˝Ωöº2ﬁ+º¶<é<ëÒ@;xK<ÑˇÅ;ÜûÄª•·ãºçbÚº/Mò;ÉI	πÁ}ºHp∫U«;f“<∆÷≤;?Œhº&<1ªΩ/ªÌµÜº`∫;ÚÎ¶ºjõ<U¯<5<<c<ü«≈9“Í÷;¨˙;ÕîºàAŒΩGY2                        <klËºPœÛ<ü0U<∞‘}<"-˚9Ô¬ºè~<<‘¢<	Øø∫Ÿ“<FÑ;2$;©ü"º` ;áî:bØ\º±TΩXˆ<7ì%º5Cå:∂0ªˆT·<âï’ºÑÔê:âr;gyËπÑà<∞5´;ÒH∂:ÚµÁº¯πíqJ:Éè#ºá´º2Ö‹º«=xº[>-∫∆∫º’ <+øºS˘∫G◊◊<ﬂiÛ<·QŸ<A⁄<kÁº¶R;˚nz<º-3<ß∞º;˙J.ª6&ƒªôR <{|π‚§Äªçíª‡Û3ºˆõº¥í¸ºÜ˜º†xq=ûπºø -º{GªÁ≥ßºΩ(?<kB<∂àΩª ‚üºRj º ®:<≥VºTñªÖ4á:Õ¬Ñ<l¿ÃºÎdc<πÇûª‘40º•rXΩç¡Xº≠Ë<∞3a;¥XI;íç<È<\#É82ıRºZN¶<ÚøÜºà(ª 2hº_≥_ª	ùˇ<Ää <sÍfº;wWºfm2ªìwV<‘–<Øø];ŒzKπ	é‹ºÃsªÚp<Ø<±xY;¿Ï‘∫iï;ü#ﬂº§6-º◊<§…∞ºïwº‚∆Dº@X<¨ù=B^=á≠E:Ï#U=OÔOºØ≠õ<rzªºD˜ºÓ›éª√\Ω;üâi<ÀÌª˚S <˛®=<¢O=0¬#<é:cºVHé;^ƒºÌºû<e…Äº§ ‘∏èjTª“èZ< áº»kâºªÒΩ8ÿEºöaµΩ^»~∫≈2<UÃ<w<JFÎªiÇ<ﬁá©<≥5]ªéÄéº~#d<Älf:;P2Ω'ãgº÷Ú;ÉÛ≤ΩëK;aÇ√<µ∆Á<åº1<ùººÕ/i∫yäN;≠ã]<WgªîQ;Øö ;¬áºèÄ…ºóˆÒºR!“ΩFy]                            <Ω —<Ûk=DTª£8I=ö$= ÃûºQ"èºåà›Ω)†j<Ω˘»=2˚=Pı‡Ω276Ω ©_º±À<ò;p<Ât∫Œîü;Æ¶@<;Kê<“Î<Ä{™<∏˜æ;∆≠ÙΩzˇº∂ÍêºﬁÂº$ln<U‚9ºµ∞àº◊*º∫1<"üºÛ‘ºù˙ºõUº…fŒ<Üÿ^ºÃ≠Åº%XÑºaßì<Ú⁄¸=	±_<˝õ_=b[=8ºhnAºßN<Ä  =ôå1=l∫ªƒce<ß´»<ó ¯ª‡&0<âôZ<ÃÆaΩ:‹dΩa›ΩáÒºñ∫O="€çº)áÈºJøUªÅ<≠<>Yá<}fΩëÔ"ª∫(Sº∑P‘<òé=\≠üºb>∫ÚÚÆ;-X<èB≤                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                XTENSION= 'IMAGE   '           / Image extension                                BITPIX  =                  -32 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                  185                                                  NAXIS2  =                   14                                                  PCOUNT  =                    0 / number of parameters                           GCOUNT  =                    1 / number of groups                               DATAMIN =                   0. / Minimum data value                             DATAMAX =                   0. / Maximum data value                             ORIGIN  = 'NOAO-IRAF FITS Image Kernel July 2003' / FITS file originator        IRAF-TLM= '2019-03-04T22:30:09' / Time of last modification                     COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H DATE    = '2019-03-04T22:29:57' / file creation date (YYYY-MM-DDThh:mm:ss UT)   CTYPE1  = 'WAVE    '           / grating dispersion function                    CUNIT1  = 'Angstrom'           / dispersion units                               CRPIX1  =                 15.0 / [pixel] reference pixel                        CRVAL1  =              10100.0 / [Angstrom] reference value                     CDELT1  =                 46.5 / [Angstrom/pixel] dispersion                    CTYPE2  = 'CRDIST  '           / cross-dispersion distance                      CUNIT2  = 'arcsec  '           / cross-dispersion units                         CRPIX2  =                  8.0 / [pix] reference pixel                          CRVAL2  =                  0.0 / [arcsec] reference value                       CDELT2  =             0.128254 / [arcsec/pixel] cross-dispersion scale          OBJECTID=                  358 / Object ID                                      NBEAM   =                    6 / Number of beam in object                       BEAMID  =                    0 / This beam ID                                   REFPNTX =            91.567000 / x coord. of reference point                    REFPNTY =            41.164000 / y coord. of reference point                    C0X     =                  106 / x coord. of 1st bounding quadrangle corner     C0Y     =                   39 / y coord. of 1st bounding quadrangle corner     C1X     =                  287 / x coord. of 2nd bounding quadrangle corner     C1Y     =                   40 / y coord. of 2nd bounding quadrangle corner     C2X     =                  287 / x coord. of 3rd bounding quadrangle corner     C2Y     =                   49 / y coord. of 3rd bounding quadrangle corner     C3X     =                  106 / x coord. of 4th bounding quadrangle corner     C3Y     =                   47 / y coord. of 4th bounding quadrangle corner     BB0X    =                  106 / x coord. of 1st bounding box corner            BB0Y    =                   39 / y coord. of 1st bounding box corner            BB1X    =                  287 / x coord. of 2nd bounding box corner            BB1Y    =                   49 / y coord. of 2nd bounding box corner            WIDTH   =             2.064000 / Width of object in pixel                       DRZWIDTH=             2.064000 / Width of object in pixel                       LENGTH  =                  185 / Length of object in pixel                      OWIDTH  =             2.000000 / Maximum width of object in pixel               ORIENT  =           -89.452000 / Orientation of object in deg. wrt y-axis, CCW  IGNORE  =                    0 / Ignore flag for this beam                      OREFPNTX=           166.124000 / x coord. of reference point                    OREFPNTY=            86.370250 / y coord. of reference point                    RREFPNTX=           -14.433000 / x coord. of refpoint in stamp image            RREFPNTY=             3.139000 / y coord. of refpoint in stamp image            WAVPNTX =           -39.709228 / x coord. of reference point                    WAVPNTY =             0.922132 / y coord. of reference point                    XOFFS   =            15.000000 / x-offset after drizzling                       LAMBDA0 =         10100.000000 / wavelength drizzled to                         DLAMBDA =            46.500000 / wavelength increment drizzled to               SKY_CPS =             0.873630 / electrons per second in the background         CDSCALE =             0.128254 / pixel scale in cross dispersion                SPCORR  =             0.971103 / correction factor resolution                   SLITWIDT=             1.000000 / slit width [pix]                               DRZ00   =        -1.387747E-01 / drizzle coefficient (0, 0)                     DRZ01   =         9.710583E-01 / drizzle coefficient (0, 1)                     DRZ02   =         9.287753E-03 / drizzle coefficient (0, 2)                     DRZ03   =         0.000000E+00 / drizzle coefficient (0, 3)                     DRZ04   =         0.000000E+00 / drizzle coefficient (0, 4)                     DRZ05   =         0.000000E+00 / drizzle coefficient (0, 5)                     DRZ06   =         0.000000E+00 / drizzle coefficient (0, 6)                     DRZ07   =         0.000000E+00 / drizzle coefficient (0, 7)                     DRZ08   =         0.000000E+00 / drizzle coefficient (0, 8)                     DRZ09   =         0.000000E+00 / drizzle coefficient (0, 9)                     DRZ10   =         1.852027E+00 / drizzle coefficient (1, 0)                     DRZ11   =        -9.568562E-03 / drizzle coefficient (1, 1)                     DRZ12   =         9.999542E-01 / drizzle coefficient (1, 2)                     DRZ13   =         0.000000E+00 / drizzle coefficient (1, 3)                     DRZ14   =         0.000000E+00 / drizzle coefficient (1, 4)                     DRZ15   =         0.000000E+00 / drizzle coefficient (1, 5)                     DRZ16   =         0.000000E+00 / drizzle coefficient (1, 6)                     DRZ17   =         0.000000E+00 / drizzle coefficient (1, 7)                     DRZ18   =         0.000000E+00 / drizzle coefficient (1, 8)                     DRZ19   =         0.000000E+00 / drizzle coefficient (1, 9)                     EXPTIME =             4211.742 / exposure time                                  NDRIZIM =                    4 / Drizzle, number of images drizzled onto this ouD001VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D001GEOM= 'User parameters'    / Drizzle, source of geometric information       D001DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_err_ID358.fits' / Drizzle, inD001DEXP=             1002.935 / Drizzle, input image exposure time (s)         D001OUDA= './DRIZZLE/aXeWFC3_G141_err_ID358.fits' / Drizzle, output data image  D001OUWE= './DRIZZLE/aXeWFC3_G141_errwht_ID358.fits' / Drizzle, output weightingD001OUCO= '        '           / Drizzle, output context image                  D001MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_wht_ID358.fits' / Drizzle, inD001WTSC=             1002.935 / Drizzle, weighting factor for input image      D001KERN= 'square  '           / Drizzle, form of weight distribution kernel    D001PIXF=                   1. / Drizzle, linear size of drop                   D001COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_flt_ID358.coeffs' / Drizzle, D001XGIM= '        '           / Drizzle, X distortion image name               D001YGIM= '        '           / Drizzle, Y distortion image name               D001LAM =                 555. / Drizzle, wavelength applied for transformation D001SCAL=                   1. / Drizzle, scale (pixel size) of output image    D001ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D001XSH =                   0. / Drizzle, X shift applied                       D001YSH =                   0. / Drizzle, Y shift applied                       D001SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD001SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D001EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D001INUN= 'counts  '           / Drizzle, units of input image - counts or cps  D001OUUN= 'counts  '           / Drizzle, units of output image - counts or cps D001FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD001INXC=                 92.5 / Drizzle, reference center of input image (X)   D001INYC=                  7.5 / Drizzle, reference center of input image (Y)   D001OUXC=                 93.5 / Drizzle, reference center of output image (X)  D001OUYC=                   8. / Drizzle, reference center of output image (Y)  D001SECP=                    F / Drizzle, there are no secondary geometric paramD002VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D002GEOM= 'User parameters'    / Drizzle, source of geometric information       D002DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_err_ID358.fits' / Drizzle, inD002DEXP=             1102.936 / Drizzle, input image exposure time (s)         D002OUDA= './DRIZZLE/aXeWFC3_G141_err_ID358.fits' / Drizzle, output data image  D002OUWE= './DRIZZLE/aXeWFC3_G141_errwht_ID358.fits' / Drizzle, output weightingD002OUCO= '        '           / Drizzle, output context image                  D002MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_wht_ID358.fits' / Drizzle, inD002WTSC=             1102.936 / Drizzle, weighting factor for input image      D002KERN= 'square  '           / Drizzle, form of weight distribution kernel    D002PIXF=                   1. / Drizzle, linear size of drop                   D002COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_flt_ID358.coeffs' / Drizzle, D002XGIM= '        '           / Drizzle, X distortion image name               D002YGIM= '        '           / Drizzle, Y distortion image name               D002LAM =                 555. / Drizzle, wavelength applied for transformation D002SCAL=                   1. / Drizzle, scale (pixel size) of output image    D002ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D002XSH =                   0. / Drizzle, X shift applied                       D002YSH =                   0. / Drizzle, Y shift applied                       D002SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD002SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D002EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D002INUN= 'counts  '           / Drizzle, units of input image - counts or cps  D002OUUN= 'counts  '           / Drizzle, units of output image - counts or cps D002FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD002INXC=                 92.5 / Drizzle, reference center of input image (X)   D002INYC=                  7.5 / Drizzle, reference center of input image (Y)   D002OUXC=                 93.5 / Drizzle, reference center of output image (X)  D002OUYC=                   8. / Drizzle, reference center of output image (Y)  D002SECP=                    F / Drizzle, there are no secondary geometric paramD003VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D003GEOM= 'User parameters'    / Drizzle, source of geometric information       D003DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_err_ID358.fits' / Drizzle, inD003DEXP=             1002.935 / Drizzle, input image exposure time (s)         D003OUDA= './DRIZZLE/aXeWFC3_G141_err_ID358.fits' / Drizzle, output data image  D003OUWE= './DRIZZLE/aXeWFC3_G141_errwht_ID358.fits' / Drizzle, output weightingD003OUCO= '        '           / Drizzle, output context image                  D003MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_wht_ID358.fits' / Drizzle, inD003WTSC=             1002.935 / Drizzle, weighting factor for input image      D003KERN= 'square  '           / Drizzle, form of weight distribution kernel    D003PIXF=                   1. / Drizzle, linear size of drop                   D003COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_flt_ID358.coeffs' / Drizzle, D003XGIM= '        '           / Drizzle, X distortion image name               D003YGIM= '        '           / Drizzle, Y distortion image name               D003LAM =                 555. / Drizzle, wavelength applied for transformation D003SCAL=                   1. / Drizzle, scale (pixel size) of output image    D003ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D003XSH =                   0. / Drizzle, X shift applied                       D003YSH =                   0. / Drizzle, Y shift applied                       D003SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD003SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D003EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D003INUN= 'counts  '           / Drizzle, units of input image - counts or cps  D003OUUN= 'counts  '           / Drizzle, units of output image - counts or cps D003FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD003INXC=                 92.5 / Drizzle, reference center of input image (X)   D003INYC=                  7.5 / Drizzle, reference center of input image (Y)   D003OUXC=                 93.5 / Drizzle, reference center of output image (X)  D003OUYC=                   8. / Drizzle, reference center of output image (Y)  D003SECP=                    F / Drizzle, there are no secondary geometric paramD004VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D004GEOM= 'User parameters'    / Drizzle, source of geometric information       D004DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_err_ID358.fits' / Drizzle, inD004DEXP=             1102.936 / Drizzle, input image exposure time (s)         D004OUDA= './DRIZZLE/aXeWFC3_G141_err_ID358.fits' / Drizzle, output data image  D004OUWE= './DRIZZLE/aXeWFC3_G141_errwht_ID358.fits' / Drizzle, output weightingD004OUCO= '        '           / Drizzle, output context image                  D004MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_wht_ID358.fits' / Drizzle, inD004WTSC=             1102.936 / Drizzle, weighting factor for input image      D004KERN= 'square  '           / Drizzle, form of weight distribution kernel    D004PIXF=                   1. / Drizzle, linear size of drop                   D004COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_flt_ID358.coeffs' / Drizzle, D004XGIM= '        '           / Drizzle, X distortion image name               D004YGIM= '        '           / Drizzle, Y distortion image name               D004LAM =                 555. / Drizzle, wavelength applied for transformation D004SCAL=                   1. / Drizzle, scale (pixel size) of output image    D004ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D004XSH =                   0. / Drizzle, X shift applied                       D004YSH =                   0. / Drizzle, Y shift applied                       D004SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD004SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D004EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D004INUN= 'counts  '           / Drizzle, units of input image - counts or cps  D004OUUN= 'counts  '           / Drizzle, units of output image - counts or cps D004FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD004INXC=                 92.5 / Drizzle, reference center of input image (X)   D004INYC=                  7.5 / Drizzle, reference center of input image (Y)   D004OUXC=                 93.5 / Drizzle, reference center of output image (X)  D004OUYC=                   8. / Drizzle, reference center of output image (Y)  D004SECP=                    F / Drizzle, there are no secondary geometric paramEXTNAME = 'ERR     '                                                            EXTVER  =                    1                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 >¡û>i®>bûÎ>\\„>Yh§>T˛>M&ö>F|>C7,>@ Æ>:/>5›Ω>3ó>/ﬁ>,Æ>'Mn>#⁄U>#Å∂>!”I> ÚÄ>Iù>93>c>r>`>ñ2>õG>
+Í≈>>π>h8>ã>Ï> dß=˚∞x=¯‹¬=ˆH=Ô∂º=ÏÌ¡=ÏhÕ=Ê(=È…r=Áv=·èM=„=ﬁ§=ŸŸâ=ﬂI=‘*=œ°S=–(¥=œ9W=ŒZm=≈QA=«˝l=√J=æ+E=˚””                            @B=f>µe†>∞Ñ÷>¨25>§ë⁄>ú∂ø>ï∞±>è
+`>â%<>ÖƒS>Å·π>w@>niˆ>b'Á>UDû>J	Œ>?üÿ>7 6>2‘
+>)π÷> ÿû>y‹>2Â>1ïã>>	`b> Q2=¸JU=Ò´N=Ëı=‰ç=›ˆM=ÿ∂=—5Ò=…¥à=»cÀ=√·‰=æÌ`=ª =¥'∞=Ø==≠g=®†=¢Ûü=ù∑£=ôn‘=ï4c=ëÌÕ=è©ã=çπÛ=ãrl=Ü£I=ÄÕk=|Ì∂=x/N=o-ê=j°É=h’=iÀ=a¯Ä=^§7=»û∂=ayq=O\8=H˛ù=C,=AX≠=>åø=<Rµ=5C†=3„Ö=1]=,©‡=+∆(=(áÆ=<{v=G<+=*†=µ=<Ï‚=è+_=ç¢ñ=á”≥=Éô@=Ä2"={ëñ=zÈ=t‘ˆ=n˜t=ı∞Å?>ÙÁ∫>Á˙F>Ÿ˘∏>œÛ>ƒ)¶>ª}ˇ>µŒ>Ø®;?*ì?»>ûB∞>úx>ô'˝>î”U>ã;y>Çkı>}ë°>y¡z>r≤>gŒç>a4>^_ı>Tòc>O¡Y>Nxa>Bπü>8®ô>2Á“>*%ê>$ˇ=Äçﬁ=:£=:Ï=7Ï]=7Æ=5c=2‹<=0∂√=/wq=-uä=-¶∑=,u∞=(T•='ûÛ=)ÜÉ=Tc=#Cr="mØ=!xn=cı=c˘=ÕÈ=]=ÕL=2‰.=Ï∆=-†=iÈ=¯!=È‰=§‹=^ß=±Ë=‚=
+∑∑=	µ=~0=UÎ=àÿ=gz=¢‰=O#= }S<˛C<¯˛8<Ù‰G<ÙÌ=j<Ô∆≠<Îﬂü<Èå<Áz<ÂÇ<ÌÖÂ<‡∫„<›ä=,Ï’>É°                        =ê‚ö<‹›+<Áπ–<‡Œ:<÷\Ô<‘Ät<“IÍ<Œ”Ö< ±`< >G<»¡<∆,Ñ<ƒë<‰≥ù<ŒRõ<øÄˆ<øÀΩ<¡Ñˇ<æä◊<Ω¸<æØÅ<ºÄJ<¿¸S<Ú∂<»óÎ<ø¸è<µ§"<¥•ª<¥(T<≥pÏ<≥äÆ<±•Ÿ<±F<Ø·ï<æ¯˛<πf±<¨6ì<Æ¡s<≠h£<´ìı<™Iñ<© e<®˜<®<ß˙Ö<®ìQ<ß
+c<ß˘<ßêO<ß§Ê<ß¡Ö<•^¬<§Xò<•§…<§˛°<£€<®P<•E»<£˚À<•|˜<ƒ”∞<⁄ª∞<Õxb<•ß¢<†”<ûıû<û|K<û{<õ≈ö<õ‡¥<®Oè<¿Æ9<úZv<ú6é<ö—Å<†Éæ<§äJ<ôX<ò¶<™„â<—æÖ<” S<“{R<“*b<—≥$<‘∫T<’¢<’L<‘•<Û∏=|Ä=“â=‡ =
+«=»Ñ=Bl=^=Æ†=2|=;=º =‡6=Ùó=7B=¯©<ˇ4£<¸°<¸&<˘•f=«<ˇœ´< <J≥<ﬂ¿<Ì‘Æ<Ìˇk<˜‚[<˘≠é<ÎÅ	<Ë0<Êÿ†<¬VØ<¶Ãp<£7V<°Í4<¢È<†¯<£B‹<£∆R<¢:N<ü r<†<°0<¨Qd<´-f<°ÿ<Ω¸F<ØÔ	<ßû=<ü@ˇ<û`¬<û5X<ùÃ¶<ûöì<ùci<¿™Ó<ú•æ<úd–<ú‚µ<ú≤ê<ùÿ<ü“<ùæ<õ_à<úLV<úY<ú4˝<†7’<∂‰«<»]<™–<ùÁc<ù∆Z<úg√<úéƒ<ú^<ù9I<ù;√<™»<û]´<ù<ù[<ùk»<£Üœ<¥ªA<ú≤ö<úãT<” Œ=≤*]                        =T÷Ê<•_<Øú≠<®ò¢<ùm<û@#<ü|-<•«Å<ß›<üu<õ¿^<—W<µ=’<≈+5<¡%8<§‘<õ <ù$><û?;<úev<ükﬂ<ú∆<öÿ=<üæ;<¶ã"<§}@<ú9<új„<õ∂q<ùKj<ù<õ˝t<ú‡†<ü.<ßc-<¢/7<ú)u<£∫<• <ü.<ù∂´<ùÊ<û<¡<ûUd<ù©ì<û Å<ùMÚ<ùCæ<ù∆∞<ûdù<ûB<úÑ<úL<ù√<ú:D<ú”M<≥ﬁ<™ÿÏ<ûK•<°Ø[<©˘\<™h<©9â<ü[K<õÖ©<õ©6<úåø<õ¯·<ò“É<ôfê<ú˚º<°‰<úm=<ú¬<õ@<öÌT<õàª<òÕÂ<¶ Î<Œã!<”Nª<”N¯<”â±<’ë˘<”Ô•<”ﬂÍ<”¥s<‘∆a<‘ıû<÷@÷<’+[<”O¸<‘+<÷T°<⁄Û¨<ÿ¡›<“…ÿ<‘f<”Íï<’=<Ï$ò<‡rı<–><“å<’5.<“ká<–‰˘<“∞|<”"=ëé<ﬂ∞©<œ¸Á<œ6÷<–ÚF<—é"<‘Al<‰0R<{m<‘•E<“gN<—ßo<“˘M<™c≥<ôH7<ô«<ô†®<ó—Ú<ôrX<ô∫X<ö<ôaÔ<ôáÌ<ô¶â<ü°D<üà’<¶!o<™⁄´<§¡¨<ü≤Œ<öz¶<öo|<öFÄ<õ-…<õYv<õ?À<ôq›<öeo<öπÑ<õ©…<•©n<©Áç<ûNÈ<ú:<ö»Ã<õ9f<ö∂Æ<ú¡+<£lJ<æ^&<Ã⁄<ÆôÌ<ûTÉ<ùaÊ<ú∂<ù	 <ùuå<ùx¥<út}<¨‚6<®wL<û∏∏<ù§‚<ùÉ <úC7<úñO<ù≤<ù¿<“ä;=Øz+                        =ÛÕ<¿!w<üˇ•<ûÙ<ú◊ﬁ<ù´æ<ûóü<ß9D<°_<<ûJ<ùv<°â©<¢lX<Ω\<Øi˙<ù:<ù4.<õ≠ú<¨Ëì<õ¬~<ù´Ö<úNÉ<û÷<œf<∏Ò<úÎ∏<ú	<úEØ<úºk<õ•Ú<ùS<ùu<°ßc<©Ã¥<§–$<ù˚+<ûr4<∂
+<€1<û˛`<§_V<©§t<¨E<§jÒ<ù˘∞<û∫<©G§<≠< <ùFö<ù£<û%+<ù/@<ú?ß<úp7<ú¡É<†⁄N<ûy¨<ü ∆<†ïß<°‰¶<¢]„<û3<û9<†Û)<ú∞·<õÔ|<ú›ä<ú1<ôø≥<ôiC<öí|<öMd<õ—:<õµ<öƒ“<öÜv<öõ><ô6K<©ﬁ˜<”Zf<‹zp<ﬂº˙<ŸáÂ<⁄À&<◊¶2<◊+=<’Xë<÷®<◊(<÷É¬<‘æV<‘<”Ô@<Ÿ∞/<Êa¸<·ﬁU<‘ük<‘~<‘Ø4<‘<ËeŸ<·ê<“ˇÓ<“}»<’Û<”d
+<—i‡<“ıﬁ<“‡w=“¨<‡òû<—ïß<ËΩ≠<‘ú∂<–≠<—¢ <”ñÁ<‚ı,<‘4„<‘Å9<”¶û<“Îy<∂'Æ<ûú\<ô//<ö+<ó—L<òdN<ô)N<ôôé<ô`<öc⁄<öTI<¢î÷<∞0ì<£Bw<¿sE<°B <ò˜˛<öo&<õB<öòø<õ—d<õ##<ö·`<ö6ú<õ˛Ÿ<õ<ù™å<£ƒÓ<ß”6<ùÛ`<ú&<ö±	<ö§€<ú∞ã<ú_r<ù>Æ<£∏#<∞\ø<ù‡
+<ù]t<û)•<ù_„<õ 2<ù:•<ù8<ùæ<ßïò<©O
+<ûï<üYÒ<¶	Ó<ú“k<úÕ<ùc<ùc<œ∞®=™}j                        =Vk_<¢À‰<¶€ï<ù˙3<û<ù‘ó<û∆≤<ûÊÑ<ùvÿ<ù(~<ùbŸ<ù—÷<ú∫'<¢Há<ûp<úÉÔ<•~<¢ö<≤t‘<ú5&<õˇ#<úÚÎ<ù»Å<∞ê˙<µŒ~<úLj<û M<ù^p<ùÔ+<õ`á<õn9<úœ_<†‘A<ßeS<£"?<ù@å<ú∫ú<®˚#<»>
+<°£#<±ﬂé<¬O»<¿≥v<©&[<õ¯§<ù√<£ŒG<¶ƒh<ù≈(<ùñÙ<ûW'<†1»<ß{£<úÀS<ù«±<≤bË<™≥»<ùâ(<û<V<ü˛–<†~à<ûã <û=Ú<†À+<õ‚Ù<õ2<õSÍ<ù8È<ú‚n<ö5~<üÚ<ø-˚<öWÃ<õÂ<öûß<öHÄ<¶DS<ß$ò<œU’<’≤’<ÿπ<⁄óP<‘’<÷`><÷Z]<◊zN<’ò<ﬁ+Ô<ÂòG<‹QT<‘z‹<’ä’<’>Í<‘ <”˛<÷·¿<”Zf<‘Ä<‘–≈<”Å <”A<”?<”ó∂<—’ <◊Ä\<“Ïû<—Ÿw<—ë<’ C<Îçµ<÷u<“cı<˝iò<Ÿ9|<“*≠<–™Â<“?K<“¸B<”}£<’¢5<◊ôQ<‘Q<”Ä–<©Ù·<ô†<öo*<ò›<ò∞˜<ô:<ô8P<òÍ<ò˘Å<ô<<õh<ù–<ú(ˇ<ú%õ<öú<ôçÏ<öï<õ*&<û⁄è<≠∂<õC<õ|¯<ö#≠<¥ü;<ù´j<õéŒ<õ!<õôx<ú¡b<ùÓ<ô™Ï<õﬂ<øˇ‘<£s <¿i°<¢&Ò<ùÉ˛<¶+<∂÷<ú˝◊<ú√<õ„x<ú¢¡<ùM1<ùSf<õÈö<ûYˇ<û◊<ûúB<¶ÃÕ<ù3{<ú3r<ù5œ<ùÕ<–^¶=¶Ú$                        =Olë<¢zR<¿ﬂÌ<û}	<ûÁ?<ùàÌ<úD⁄<ùÒ<ù4•<õﬂD<úáå<ú¯°<õı<ú”¶<õ!<ú/¶<´îÊ<®ä<ù"¯<ú∏Ç<ùËà<ú=T<úY‡<ûY<û‘o<úL‘<ùk<ù£5<ùN˙<ûΩ#<ü¨2<úiä<ùÉ<úy”<ùË4<ù€ö<û<†‰…<¢E<û˝<ùG%<ùb<ùBW<ùêz<ú7ü<úã_<ú6€<úŒÕ<ùJ•<ù¿°<û[´<û}=<†¢r<†8Ã<º‘@<ùÇ<ù∑x<†rx<¢ïT<††π<†Ë<üEU<ùπ∑<ù¿è<õ:y<õ†¯<úÛ<õéÄ<õMX<õ˙£<ú±l<ü–n<ôB<ô€d<öO><õ‡≠<∑ÙÚ<´£M<ÿ≠Ñ<◊ôd<”ˆ<<‘ı<‘S¸<‘ìJ<÷9∏<÷ÀÜ<’
+`<◊ºo<€∫Œ<÷i˝<÷	™<‘h•<‘˝√<Â ä<Ë≠t<“™J<‘h€<’Iè<÷7∑<ËÅ<‰∂`<“Cä<”2µ<”TÇ<‘#<”T•<“öZ<‘–<‘®<”∂x<“—4<”iô<”á#<‘
+<‘˜<”i<”T <◊F!<‘è∆<‘Î‘<÷\-<”d_<‘ln<≥˙n<ût–<ôf<ôÈ\<òz◊<òzF<ôZ<ôPh<öΩ9<ôÿD<ô3<ô4≤<öÇ <õHS<ö´õ<õM8<ö[‘<õFæ<üsc<∞‡-<ú^Ø<úwí<ôw»<•“ë<ûÒê<õ ü<úIü<ùúQ<ûëE<ù—∞<úÈD<õÃ<ù/<ù=‚<úª±<úpE<úH<ù˚<ü◊ı<†®<ú¡∑<ú§\<ù¨
+<úÉπ<úe<ù©'<ù<<ù•ÿ<üy˙<†Óë<ùÍª<ùÿ<ùÀ0<ûF9<–m=¶√]                        =Sák<ûÂ#<ûÁö<ùÍ$<û|
+<ùµ:<••¿<°e4<ùwà<ùÁ<ú'+<úˇâ<ùª^<ûná<ú¿¯<úS<õ–Ω<ú£µ<ùµ<ú√<ûo0<ú3<úC<û_M<ßßê<ùBS<úXœ<õ“Õ<ûi<ßíÙ<∏K<õ“f<úÁ`<õåπ<ú‰§<ûR©<û"K<û5<ü¯Á<†^¯<û≤†<û}{<ùFÁ<ùKâ<úxi<ú˙æ<úÅ<ù[h<ù◊o<û$¶<ù†%<ùz¥<ù¸Z<û±R<• +<ùgx<ùRÚ<®öK<¨Ü<¢uÅ<üÈÏ<ú«›<ùx«<ù!_<úz¢<ú?⁄<úRŒ<õ‘Ù<õpË<õé·<ô“¡<ö è<õæ:<ú <<£y£<◊QJ<∞FÀ=Î±<„˛¡<’Ûu<‘¨J<◊KŒ<Ï2’<÷Iπ<˘|≠<ÚMx<’í<‘v<’cü<’õK<÷rt<÷]°<’Y¶<Á=<Í{$<”úg<”‰õ<’Æ‚<‘€â<Êòp<‰ï<”á|<“≥¨<‘WÔ<”/√<“ê<“f2<‘8<<”*x<”Í<—∏º<—æü<“˘¯<”πö<’UΩ<’O5<÷Pz<’b±<“¶s<‘Eü<‘„ó<”ª<÷d:<”ÖA<™}Ä<ûqÈ<£π‚<ù¶Å<óKß<ô¿ö<ôR<ò5$<ô<ôíI<ôÎÅ<•ÙN<∞Â0<õƒı<õSl<ôdﬂ<öYí<õ±!<ú± <úP)<ú4<òB“<±˙\<™ÂZ<õhô<°;u<¢ˆì<üæñ<ùAZ<ú;Ç<úZ<úú˝<ùÒß<û# <õ◊—<ú!U<úF<úbU<ÕêÖ<¨Û!<ùÈN<ü∑<ù˝<ùxO<ú£˘<ú˜ë<úìå<ûˇ
+<†%X<ù€ü<ù≥.<úè<úÔÔ<Ã}=†√                        =WÖ<¶0W<£W<ûro<ù†<ü)c<üQ<ü=j<ûÇ=<û≠ê<ùûj<ù™ú<õ¬`<ú” <´82<û
+G<†∂<ö‡ê<õﬂc<ú´D<®}ë<£Ì<ùß<úBN<ú`–<ù")<ú›Ã<úŒ?<úg<ú-d<ú <ù≥Ô<ù¨™<ú©i<õÛÙ<ùr<úÆå<ûCp<ü[x<ûÈµ<¢œ<∞‘<ú∞<ù¢˚<ù∫õ<ù“¥<úà<ûçi<üÁ<û'6<ùaL<ûZÔ<û~‚<ùÆH<ùÈ-<ûºŸ<úæ:<§ï<ß=Œ<°c<üc
+<öôY<ú†Ø<úﬁd<úB˘<ùV¨<ù8ˆ<õ’∞<ûƒ<ö˘π<ö3¯<ö¨‘<õ©ô<öI¬<üÌ\<¶-÷<•__<÷6-<◊é[<◊≥8<’ûf<⁄œ±= ”X<‘ˇ‹<·P<ﬂdô<◊<’À‚<‘^<”Øà<’)∂<”Ûô<”$3<”R<<“ü
+<”%<‘V©<‘ã√<‘æN<“Èv<‘é™<⁄ë<‡Wc<ŸY<—’w<—˝‡<”?≥<”ï]<‘£v<’'‹<“”D<“˚e<“,û<“¨<’Å<‘„G<‘Ã<’éu<“‡´<Ì]ﬁ=≤û<›÷<‚dB<Òk<©˚/<ù‡˛<¢`<ù Ô<ój‘<ôê¡<ô¢<ôÂß<öN˙<öªí<ô2≤<õÜó<ù+<ö~3<ö›‘<öp˘<ö©j<úœ¬<úI<ú(ı<ú…<úO¨<úï<ú	<úI<•≈f<•/¿<ùXò<ùø<ú* <õp√<ö± <ú∞'<ûÁ<õvÓ<ú±<úÁz<úÓﬂ<ß∏9<≥IL<™^◊<µnƒ<ù‰]<û∑V<ù‚Ÿ<ú¡‹<úG<ùzU<ûõ∑<ù7<ùÑ<ú“ <ùÎµ< ¥O=û#                        =`Î<®çì<´ﬁ<ûõ<ùå£<ùfz<ú§˚<û	<û K<ûëN<ûc|<ùº—<úÙ<ú'•<≥!ì<û“É<ÃØª<ú›$<ù©D<ùéµ<≤["<®*K<ú}ú<ú:Ú<úL[<ú%∂<ú ø<úéƒ<ù(<úXÓ<úÊY<ûRQ<úÈ<õŸ©<öÏ°<ú‰<ù∑<ùA<û«<ü}v<¢£Q<ØRA<†Bc<ühØ<ùù<û´<üáY<°7<°Z‘<üê^<üçä<¢÷<¢<¢9≥<°§∫<°ï'<°†<£§•<§ ?<§Hı<£∆<<¢#^<¢∫Í<£ô<¢y—<¢5j<§=√<•<¨…;<•`<•è<••<§l<•Hr<¶kﬁ<ßòÍ<µÛä<Ó@ô<Ûsñ<ˆ∏©=£ú=<‡<¯"µ<¯Oº<¸wk<˛Ë= Z«=k= ˇg<ÈÔ<”—ë<—ßè<“ 3<”Ò@<” <”m_<”•{<“Ê<”)<“æó<’ãœ<·7ÿ<ÍÅ*<‹Æä<“ôØ<”u¡<”≈<’É<“Ê<—Ï[<“â<—Ä<”È5<‘Y<“Ài<”u)<–VÓ<“d<‘€H<÷Œò<÷ﬂ,<ÂÌ<ıF=¢î<πZµ<°≠…<úÀA<ùDò<ûq<ûg,<†w[<†√Ë<°9¬<£Ÿ’<£Ë<†¯/<¢V¶<£•<£¢<£¸Ú<¶Â<®~Ω<¶f<ß>S<¶€í<´}¡<≈cê<Øø<©ê®<©£ä<¨∂“<¨ T<Æµˆ<≠éw<’›<∏¯·<∞é<≤õd<≤Â<±âÀ<¥˜œ<∂€É<ªJ<ø*N<ªY<ø<º7<ª&ú<ΩÃü<ΩwÓ<ø™º<¡NV<¬S‹<√ ·<√j<ƒçû<∆6T=
+=Ôº¿                        =ìÛw<’µ+=÷¸<ÕÆ6<ÃU%<Ã∏'<Õ$O<–î<—·$<—;±<‘ÂÙ<‹µ<Êj<◊h•<⁄/®<‹ˆR<‹^<⁄¸<„{Ñ<‰5õ<Í‚<Ï)ç<ÏQ<ÍÊŸ<ÔÎÌ<Ò£]<Ù ä<¯∆Ú<˝'j<ˇO= zr=ì-=äƒ=y5=πU=gß=”=¿‰=Ñ—=¨*=÷=s=•=¨w=>$=æ"=Äã=\≥=«ƒ= {= D=!\=#;t=&ú='á=([∑=*¡=)ßÂ=*˜¸=-IΩ=.9=3å9=3F=5∞q=6ΩK=6€]=;@Î=>4∆=;⁄r=@Ëÿ=@nØ=Cå±=Gö=H©=L∑>=M£|=î>G7>RŒ®>\".>«êl>¸ï>dì4>m’A>s’H>}§>É®\>à≤Á>W¶«=~	=GÈÏ=GtÎ=LHÏ=Q?÷=TvÏ=X,è=]Åﬁ=_’=d=j@µ=q◊Q=Ç}≈=ää$=ÑÙí=Äÿ=Ö”é=äëD=ç>Ω=è—=ìÎ„=òkÒ=ú&∑=¢vÈ=ßÓô=´+Ñ=ØÙΩ=≤≈Ω=πﬁ==æ˜o=≈Y£=≈t«=—h=¯€+=˙Y=◊Æ=˚n=Vë–=[D~=`2==bjm=l^=q€&=x‡u=Ç⁄Â=ÖÒC=Ñ@ú=ÜlÎ=ãî«=é|¬=ì¨=ñﬂí=ú±ç=ùµ;=¢˙û=¶fq=±Üx=Ó¯:=≈Hl=¡ì7=»s=—ßç=Ÿâ=‰2´=Íπ˝=‘=ı∏Ã=ˇÒc>;>óI>
+ˇä>„>”L>Ä\>%éx>.}>2^≥>;õ>A„í>NK—>Xßê>f=§>q;#>Å->à…û>ë∏+>úyy>£Ñ >ÀxÂ                            ?JT€=¢$`=®È=©2v=∞õu=≥üÙ=≤¢u=µh$=∫)=¿∑g=«Ñ>Y£>ÜyÅ=Œ˘=”Œ™=ÿ__=⁄£=‹åh=„j=Ë:=ÓŒı=Ó÷N=Ì\X=ÒÉ=aç=ıπÄ=˜¸7=˚wd>Ô¬>d¢>Ùf>j§>ò§>c∞>E>[$>§î>c>ß€>.?>'T>.>>+≠w>,Ø˙>3eŸ>6≠·>7ñG>:ﬁe>Bu>Kñ¶>M'b>MÖ>W™}>^H7>an›>i
+ﬁ>o% >o⁄>s•>|%l>É(˝>ã£>éh!>íå.>òU€>ùVÔ>£∫>¨¶>¨∏·>∫ÖΩ>æÜº>Ã¢^>Ÿ¸>·:≠>Ú}? Zø?7¢Ω                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                XTENSION= 'IMAGE   '           / Image extension                                BITPIX  =                  -32 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                  185                                                  NAXIS2  =                   14                                                  PCOUNT  =                    0 / number of parameters                           GCOUNT  =                    1 / number of groups                               DATAMIN =                   0. / Minimum data value                             DATAMAX =                   0. / Maximum data value                             ORIGIN  = 'NOAO-IRAF FITS Image Kernel July 2003' / FITS file originator        IRAF-TLM= '2019-03-04T22:30:09' / Time of last modification                     COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H DATE    = '2019-03-04T22:29:57' / file creation date (YYYY-MM-DDThh:mm:ss UT)   CTYPE1  = 'WAVE    '           / grating dispersion function                    CUNIT1  = 'Angstrom'           / dispersion units                               CRPIX1  =                 15.0 / [pixel] reference pixel                        CRVAL1  =              10100.0 / [Angstrom] reference value                     CDELT1  =                 46.5 / [Angstrom/pixel] dispersion                    CTYPE2  = 'CRDIST  '           / cross-dispersion distance                      CUNIT2  = 'arcsec  '           / cross-dispersion units                         CRPIX2  =                  8.0 / [pix] reference pixel                          CRVAL2  =                  0.0 / [arcsec] reference value                       CDELT2  =             0.128254 / [arcsec/pixel] cross-dispersion scale          OBJECTID=                  358 / Object ID                                      NBEAM   =                    6 / Number of beam in object                       BEAMID  =                    0 / This beam ID                                   REFPNTX =            91.567000 / x coord. of reference point                    REFPNTY =            41.164000 / y coord. of reference point                    C0X     =                  106 / x coord. of 1st bounding quadrangle corner     C0Y     =                   39 / y coord. of 1st bounding quadrangle corner     C1X     =                  287 / x coord. of 2nd bounding quadrangle corner     C1Y     =                   40 / y coord. of 2nd bounding quadrangle corner     C2X     =                  287 / x coord. of 3rd bounding quadrangle corner     C2Y     =                   49 / y coord. of 3rd bounding quadrangle corner     C3X     =                  106 / x coord. of 4th bounding quadrangle corner     C3Y     =                   47 / y coord. of 4th bounding quadrangle corner     BB0X    =                  106 / x coord. of 1st bounding box corner            BB0Y    =                   39 / y coord. of 1st bounding box corner            BB1X    =                  287 / x coord. of 2nd bounding box corner            BB1Y    =                   49 / y coord. of 2nd bounding box corner            WIDTH   =             2.064000 / Width of object in pixel                       DRZWIDTH=             2.064000 / Width of object in pixel                       LENGTH  =                  185 / Length of object in pixel                      OWIDTH  =             2.000000 / Maximum width of object in pixel               ORIENT  =           -89.452000 / Orientation of object in deg. wrt y-axis, CCW  IGNORE  =                    0 / Ignore flag for this beam                      OREFPNTX=           166.124000 / x coord. of reference point                    OREFPNTY=            86.370250 / y coord. of reference point                    RREFPNTX=           -14.433000 / x coord. of refpoint in stamp image            RREFPNTY=             3.139000 / y coord. of refpoint in stamp image            WAVPNTX =           -39.709228 / x coord. of reference point                    WAVPNTY =             0.922132 / y coord. of reference point                    XOFFS   =            15.000000 / x-offset after drizzling                       LAMBDA0 =         10100.000000 / wavelength drizzled to                         DLAMBDA =            46.500000 / wavelength increment drizzled to               SKY_CPS =             0.873630 / electrons per second in the background         CDSCALE =             0.128254 / pixel scale in cross dispersion                SPCORR  =             0.971103 / correction factor resolution                   SLITWIDT=             1.000000 / slit width [pix]                               DRZ00   =        -1.387747E-01 / drizzle coefficient (0, 0)                     DRZ01   =         9.710583E-01 / drizzle coefficient (0, 1)                     DRZ02   =         9.287753E-03 / drizzle coefficient (0, 2)                     DRZ03   =         0.000000E+00 / drizzle coefficient (0, 3)                     DRZ04   =         0.000000E+00 / drizzle coefficient (0, 4)                     DRZ05   =         0.000000E+00 / drizzle coefficient (0, 5)                     DRZ06   =         0.000000E+00 / drizzle coefficient (0, 6)                     DRZ07   =         0.000000E+00 / drizzle coefficient (0, 7)                     DRZ08   =         0.000000E+00 / drizzle coefficient (0, 8)                     DRZ09   =         0.000000E+00 / drizzle coefficient (0, 9)                     DRZ10   =         1.852027E+00 / drizzle coefficient (1, 0)                     DRZ11   =        -9.568562E-03 / drizzle coefficient (1, 1)                     DRZ12   =         9.999542E-01 / drizzle coefficient (1, 2)                     DRZ13   =         0.000000E+00 / drizzle coefficient (1, 3)                     DRZ14   =         0.000000E+00 / drizzle coefficient (1, 4)                     DRZ15   =         0.000000E+00 / drizzle coefficient (1, 5)                     DRZ16   =         0.000000E+00 / drizzle coefficient (1, 6)                     DRZ17   =         0.000000E+00 / drizzle coefficient (1, 7)                     DRZ18   =         0.000000E+00 / drizzle coefficient (1, 8)                     DRZ19   =         0.000000E+00 / drizzle coefficient (1, 9)                     EXPTIME =             4211.742 / exposure time                                  NDRIZIM =                    4 / Drizzle, number of images drizzled onto this ouD001VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D001GEOM= 'User parameters'    / Drizzle, source of geometric information       D001DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_flt_ID358.fits' / Drizzle, inD001DEXP=             1002.935 / Drizzle, input image exposure time (s)         D001OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D001OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD001OUCO= '        '           / Drizzle, output context image                  D001MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_wht_ID358.fits' / Drizzle, inD001WTSC=             1002.935 / Drizzle, weighting factor for input image      D001KERN= 'square  '           / Drizzle, form of weight distribution kernel    D001PIXF=                   1. / Drizzle, linear size of drop                   D001COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_flt_ID358.coeffs' / Drizzle, D001XGIM= '        '           / Drizzle, X distortion image name               D001YGIM= '        '           / Drizzle, Y distortion image name               D001LAM =                 555. / Drizzle, wavelength applied for transformation D001SCAL=                   1. / Drizzle, scale (pixel size) of output image    D001ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D001XSH =                   0. / Drizzle, X shift applied                       D001YSH =                   0. / Drizzle, Y shift applied                       D001SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD001SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D001EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D001INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D001OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D001FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD001INXC=                 92.5 / Drizzle, reference center of input image (X)   D001INYC=                  7.5 / Drizzle, reference center of input image (Y)   D001OUXC=                 93.5 / Drizzle, reference center of output image (X)  D001OUYC=                   8. / Drizzle, reference center of output image (Y)  D001SECP=                    F / Drizzle, there are no secondary geometric paramD002VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D002GEOM= 'User parameters'    / Drizzle, source of geometric information       D002DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_flt_ID358.fits' / Drizzle, inD002DEXP=             1102.936 / Drizzle, input image exposure time (s)         D002OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D002OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD002OUCO= '        '           / Drizzle, output context image                  D002MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_wht_ID358.fits' / Drizzle, inD002WTSC=             1102.936 / Drizzle, weighting factor for input image      D002KERN= 'square  '           / Drizzle, form of weight distribution kernel    D002PIXF=                   1. / Drizzle, linear size of drop                   D002COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_flt_ID358.coeffs' / Drizzle, D002XGIM= '        '           / Drizzle, X distortion image name               D002YGIM= '        '           / Drizzle, Y distortion image name               D002LAM =                 555. / Drizzle, wavelength applied for transformation D002SCAL=                   1. / Drizzle, scale (pixel size) of output image    D002ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D002XSH =                   0. / Drizzle, X shift applied                       D002YSH =                   0. / Drizzle, Y shift applied                       D002SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD002SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D002EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D002INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D002OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D002FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD002INXC=                 92.5 / Drizzle, reference center of input image (X)   D002INYC=                  7.5 / Drizzle, reference center of input image (Y)   D002OUXC=                 93.5 / Drizzle, reference center of output image (X)  D002OUYC=                   8. / Drizzle, reference center of output image (Y)  D002SECP=                    F / Drizzle, there are no secondary geometric paramD003VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D003GEOM= 'User parameters'    / Drizzle, source of geometric information       D003DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_flt_ID358.fits' / Drizzle, inD003DEXP=             1002.935 / Drizzle, input image exposure time (s)         D003OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D003OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD003OUCO= '        '           / Drizzle, output context image                  D003MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_wht_ID358.fits' / Drizzle, inD003WTSC=             1002.935 / Drizzle, weighting factor for input image      D003KERN= 'square  '           / Drizzle, form of weight distribution kernel    D003PIXF=                   1. / Drizzle, linear size of drop                   D003COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_flt_ID358.coeffs' / Drizzle, D003XGIM= '        '           / Drizzle, X distortion image name               D003YGIM= '        '           / Drizzle, Y distortion image name               D003LAM =                 555. / Drizzle, wavelength applied for transformation D003SCAL=                   1. / Drizzle, scale (pixel size) of output image    D003ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D003XSH =                   0. / Drizzle, X shift applied                       D003YSH =                   0. / Drizzle, Y shift applied                       D003SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD003SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D003EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D003INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D003OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D003FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD003INXC=                 92.5 / Drizzle, reference center of input image (X)   D003INYC=                  7.5 / Drizzle, reference center of input image (Y)   D003OUXC=                 93.5 / Drizzle, reference center of output image (X)  D003OUYC=                   8. / Drizzle, reference center of output image (Y)  D003SECP=                    F / Drizzle, there are no secondary geometric paramD004VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D004GEOM= 'User parameters'    / Drizzle, source of geometric information       D004DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_flt_ID358.fits' / Drizzle, inD004DEXP=             1102.936 / Drizzle, input image exposure time (s)         D004OUDA= './DRIZZLE/aXeWFC3_G141_flt_ID358.fits' / Drizzle, output data image  D004OUWE= './DRIZZLE/aXeWFC3_G141_wht_ID358.fits' / Drizzle, output weighting imD004OUCO= '        '           / Drizzle, output context image                  D004MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_wht_ID358.fits' / Drizzle, inD004WTSC=             1102.936 / Drizzle, weighting factor for input image      D004KERN= 'square  '           / Drizzle, form of weight distribution kernel    D004PIXF=                   1. / Drizzle, linear size of drop                   D004COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_flt_ID358.coeffs' / Drizzle, D004XGIM= '        '           / Drizzle, X distortion image name               D004YGIM= '        '           / Drizzle, Y distortion image name               D004LAM =                 555. / Drizzle, wavelength applied for transformation D004SCAL=                   1. / Drizzle, scale (pixel size) of output image    D004ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D004XSH =                   0. / Drizzle, X shift applied                       D004YSH =                   0. / Drizzle, Y shift applied                       D004SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD004SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D004EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D004INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D004OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D004FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD004INXC=                 92.5 / Drizzle, reference center of input image (X)   D004INYC=                  7.5 / Drizzle, reference center of input image (Y)   D004OUXC=                 93.5 / Drizzle, reference center of output image (X)  D004OUYC=                   8. / Drizzle, reference center of output image (Y)  D004SECP=                    F / Drizzle, there are no secondary geometric paramEXTNAME = 'EXPT    '                                                            EXTVER  =                    1                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 CEVõC£aæC®∞C≠ù¢C≤ªìC∑ŸÑCº˜vC¬gC«3YCÃQKC—o<C÷ç-C€´C‡…CÂÁCÎÛC"ÂCı@÷C˙^«Cˇ|πDMUD‹NDkGD	˙@Dâ8D1Dß*D6#D≈DTD„DrD! ˛D#è˜D&D(≠ËD+<·D-À⁄D0Z“D2ÈÀD5x≈D8ΩD:ñ∂D=%ØD?¥ßDBC†DD“ôDGaëDIäDLÉDO|DQùtDT,mDVªfDYWõD]¢PD&)                            A–C_cÔCiü“Cs€µC~òCÑ)æCâGØCée†CìÉíCò°ÉCùøuC¢ﬁíC™ÎúCµx C¿dC ê«C’,Cﬂ©êCÍ5ÚCÙ¬WCˇNªDÌêDXyCÏRD¿%DWDLâD$íªD)ÿÏD/D4eQD9´ÉD>ÒµDD7ÁDI~DNƒIDT
+}DYPÆD^ñ‡Dc›Di#DDn„DvOïD}·vDÇπ¨DÜÇúDäKçDé~Dë›oDï¶`DôoPDù8BD°2D§ #D®ìD¨\D∞$ıD≥ÌÊD∑∂÷Dª»DøH∏DPbîDª€D £äDŒl{D“5kD’˛]DŸ«MD›ê>D·Y/DÂ" DËÎDÏ¥D|ÚDÙí{DÿîD x2E◊E^fD⁄)öDëﬁDï•;DôlXDù3tD†˙êD§¡¨D®à…D¨O‰D∞D+ä¥C$∏,C.ÂlC9´CC?ÍCMm*CWöiCa«®CkÙËCv"&B¸ÕOC∂nCäTÚCèkíCîÇ2Côò—CûØqC£∆C®‹∞C≠ÛPC≥	C∏ èCΩ7/C¬MœC«dnCÃ{C—£ÛC⁄@C‰∆CÔKC˘–%D*úDöÿºD‘5ØD÷÷ÛDŸx8D‹|Dﬁ∫¿D·\D„˝IDÊûéDÈ?“DÎ·DÓÇ\DÒ#†DÛƒ‰DÙlÄD¡¯êD˚®±D˛IıE uùE∆@E‚EgÑE∏&E…DÈ[=E	§àE
+˙ØEKREõÙEÏñE=8Eç€E%¨E	6EÏ≈E–RE≥·E*E
+<E ^äE"BE$%ßE&	5E'ÏƒE)–RE+≥‡E-ónE/z¸E1^ãE3BE5%ßE7	5E6ßE1»˜E<∞èE>%1DÚ±ÎC¢y‰                        DìêÅEAÃE8%5E>é4EGvØEIZ=EK=ÃEM!YEOÁEPËvERÃETØPEV3ªE7BØEIèEY÷WE[E\AÿE]wñE^≠VE_„Ea÷EXMûE0!`Ed∫EeÔ÷Eg%ïEh[VEiëEj∆÷Ek¸ïEm2VEnhEoù”EZº˚Ea≈`Es?Ett‘Eu™îEv‡TExEy-mEyŸòEz|mE{@E{¬E|dËE}æE}™êE~MeE~8EìEÄÒEÄlZEÄΩ√EÅ.E}HåEÄEÇlEÇT÷EZNßEAïfEOùEÅXÉEÉÎËEÑ=QEÑéªEÑ‡%EÖ1êEÖÇ˙EÅ∏
+E[âNEÜw8EÜ»°EáÂEÅÔrE}Ô˜Eá
+ÍEá
+ÍEr·EG&ËEG&ÈEG&ÁEG&ËEG&ËEG&ËEG&ÈEG&ÁEG&ËE-ägE&ER‡EìöE‘UEEU…EñÉE◊=E˜EK?E“ÿE⁄%E!‡E"[öE#úTE$›E&…E'^ÉE(ü<E
+ó_E$E,alE-¢'E.‚‡E0#öE1bE21˙E2ƒÊE3W”E3ÍΩE4}©ETiEuºE}%YE}∏FE~K2E~ﬁEqEÄ˙EÄKqEÄîÊEÄﬁ]EÅ'“Eo’ÜEq®EÅd≤E]o°El4¯Ewz4EÉ*EÉsÇEÉº¯EÑnEÑO‰EÑôZEX–'EÖ/EÖuºEÖø2EÜßEÜREÜõìEÜÂ	Eá
+ËEá
+ÍEá
+ÈEá
+ÈEÉTJEe?bET)_Ey»cEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEÄ›Eg≠ÏEá
+ÍEá
+ÍEI<˙Drvb                        DÀn	EÉ'ÃErüWE}l•Eá
+ÎEá
+ÍEá
+ÈEá
+ÎEá
+ÎEá
+ÈEá
+ÍEPXEhŒPESuEXÄ%E}$Eá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEÄ˘EÅ‚ßEá
+ÍEÇ–çEÇ°äEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÎEá
+ÍEá
+ÍEk9EzAEá
+ÍEá
+ÍE~:ÒE{|UE| EÜBjEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÍEÜ/0EÅÏ®Eá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÍEwdEKågEG&ÈEG&ÈEG&ÁEG&ËEG&ÁEG&ËEG&ÁEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ÈE2Î∏E9ˆÄEG&ËEG&ËEG&ÁEG&ÊEG&ËEG&ÊEG&ËEh%E;6EG&ÁEG&ËEG&ËEG&ÈEG&ËEG&ËEG&ËEG&ËEG&ÁEG&ÁEG&ÁEsÇEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÈEÄ]EÄŒDExÇErÙ˜E{˜æEÇ«…Eá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍE~~çEx≤ÑEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEÅ¨•E\ámEPiErÕ•Eá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÈEá
+ÍE|)E|æVEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEJqDw@ÿ                        D2ı~Ec\bEá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÎEÜÏEÅ’ÊE^√!EnƒèEÑ≈qEá
+ÎEÜNpEse(Eá
+ÈEá
+ÍEá
+ÍEá
+ÈEXóEo®^Eá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÈEá
+ÍEá
+ÎEá
+ÍEá
+ÍEhû!EBrEá
+ÈEÅ¬Ez	—Ey\EÇÂˆEá
+ÈEá
+ÍE|ôEv/µEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEÑ§ÃEÖ\oEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEuEdEG&ÈEG&ÁEG&ËEG&ÈEG&ËEG&ËEG&ÈEG&ÈEG&ÁEG&ÁEG&ÁEG&ÁEG&ÈEG&ÈEG&ÁEG&ËEG&ËEG&ÈEG&ÁEG&ÈEG&ËE5qFE;ô.EG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEÙøE:©}EG&ËE2{ZED)!EG&ÈEG&ÈEG&ËEG&ËEG&ËEG&ÈEG&ËEG&ËEfLÃEÉOçEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÈE|¬ZEkQEÄÓEY/EÄ≠ﬂEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÈEá
+ÈEá
+ÍEá
+ÍEÄN√E{ôºEá
+ÍEá
+ÍEá
+ÍEá
+ÈEÜsÜEÜ„;EÖuEÅJ–EqUEá
+ÈEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍE|˘5E}á¿Eá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÈEá
+ÈEK•,D|N                        DÀåêEÑÈ‹EÄÕ6Eá
+ÍEá
+ÎEá
+ÈEá
+ÍEá
+ÈEá
+ÈEá
+ÎEá
+ÍEá
+ÍEá
+ÍEÅË¯EÑr”Eá
+ÍEÄØ∂EÄ˚ÖEm<Eá
+ÈEá
+ÈEá
+ÎEá
+ÈE~3ÜEuÏEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEÅãE[[ Eá
+ÈErµ¥E[õE\H·Ezí2Eá
+ÍEá
+ÍEÅ;ƒE~ß~Eá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEm√)Ew‚∫Eá
+ÈEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÎEá
+ÎEá
+ÈEá
+ÍEá
+ÍEÉ≠fE[”œEá
+ÍEá
+ÍEá
+ÍEÜπJE{ÓEzt≥ELIõEG&ËEG&ËEG&ËEG&ÈEG&ÁEG&ËEG&ËEG&ÁEG&ËEG&ËEG&ÈEG&ËEG&ÁEG&ÈEG&ÁEG&ËEG&ÁEG&ËEG&ËEG&ÁEG&ËEG&ÍEG&ËEG&ËEG&ÁEG&ÈEG&ËEG&ËEG&ËEG&ËE3»)EB42EG&ËE%)nEB¬EG&ËEG&ÈEG&ÈEG&ÈEG&ÈEG&ËEG&ËEG&ÈEG&ÈEtLEá
+ÍEá
+ÍEá
+ËEá
+ÈEá
+ÎEá
+ÍEá
+ÎEá
+ÈEá
+ÍEÖD∂EÉÖ∫Eá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÎEá
+ÍEÑD]Es|Eá
+ÈEá
+ÍEá
+ÍEfÚ4EÑHÇEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍE\*@EÅhLEZdEÇ◊ˆEá
+ÈE~bÙEh ¯Eá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ËELŸHDÄj‚                        D–3 EÉˆE]tSEá
+ÈEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÎEtêEyuKEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÎEá
+ÍEá
+ÈEá
+ÎEÖ_öEÇ©åEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEÜ‹åEÜ\ÊEá
+ÎEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEÑjE`˚Eá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÍEÜXFEÅƒñEá
+ÍEá
+ÍEá
+ÈEÜ Ed‘Ev’.EF∏ºEG&ÈEG&ËEG&ÁEG&ÁEG&ÁEG&ËEG&ÁEG&ËEG&ÁEG&ËEG&ÁEG&ÁEG&ËEG&ËE:§‘E6®EG&ËEG&ÈEG&ÈEG&ËE4ŸLE8ì®EG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ÁEG&ÈEG&ÈEG&ËEG&ÈEG&ËEG&ËEG&ËEG&ËEG&ÁEG&ËEG&ËEG&ÁEG&ËEG&ÁEfw@EÉQVEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÍEÉÊ‹Eoï«Eá
+ÍEá
+ÍEá
+ÍE~SæEÖË≤Eá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÎEá
+ÈEá
+ÍEá
+ÈEá
+ÈEÖµEÉ›EÑ}VEÜÏøEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÎEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEN`DÇ–                        DÀe≤Eá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÎEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÍE~L?Ee	 Eá
+ÎEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEÜiyEÅÉ&Eá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÎEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÈEá
+ÍEá
+ÎEá
+ÍEá
+ÍEÄîÍEB¶úEnÊE¯zE;ß√EG&ÈEG&ÁEC¬⁄E3åEG&ËE-?E0–.EG&ËEG&ËEG&ËEG&ËEG&ÁEG&ËEG&ÁE9(ÒE4?EG&ËEG&ÁEG&ËEG&ËE6è°E9EG&ËEG&ËEG&ËEG&ÁEG&ËEG&ËEG&ËEG&ÁEG&ËEG&ËEG&ËEG&ËEG&ËEG&ÁEG&ÈEG&ÈEG&ÁEG&ËEF?’EE5zEG&ËEG&ËEG&ÈEuEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÎEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍE{kmEkçEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEj«CEv&∑Eá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÈEá
+ÈEá
+ÍEá
+ÈEá
+ÈEL˜EvzEá
+ÍEá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÎEOAzDÖ5W                        D∆òDEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÎEvA√EÜ≈EÖó…EÜ˙˛Eá
+ÍEá
+ÍE}ªíEÇm*Eá
+ÎEá
+ÎEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÈEá
+ÈEá
+ÍEÇ—«EpBﬂEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÎEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÈEÇ‰$E{e2E{ÆdEG&ÁEG&ÁEG&ËEG&ÈEAa1E%<ëEG&ÁE<.E=∂EG&ÁEG&ËEG&ËEG&ËEG&ÈEG&ÈEG&ÈEG&ÈEG&ËEG&ÈEG&ËEG&ËEG&ÁEG&ÈEG&ËEG&ËEG&ËEG&ÈEG&ÈEG&ÁEG&ËEG&ÈEG&ËEG&ÁEG&ËEG&ËEG&ÈEG&ÁEG&ËEG&ÈEG&ËEG&ËEG&ËE0ªE|:EG&ËECAE,È4Et{vEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEÖ\ÔEÉ˚Eá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEÖ˝@EÜ_ÔEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEÜ¥JEÜÁáEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEá
+ÍEÄ–vEt˛—ExüúEk{„Eá
+ÈEá
+ÎEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÍEPuîDáöí                        D¡ ’EÜyÂEÄçÃEá
+ÍEá
+ÈEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÎEá
+ÈEá
+ÈEá
+ÈEá
+ÍEl≥EÖñ*ENÓ$EÖ™TEá
+ÈEá
+ÍEra∑E~pºEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÍEá
+ÍEá
+ÈEá
+ÍEá
+ÈEá
+ÍEÉ≠ÚEv
+¬EÜπpEÜo˙EÜ&ÖEÖ›EÖìôEÖJ#EÖ ≠EÑ∑7EÑm¡EÑ$JEÉ⁄‘EÉë_EÉGÈEÇ˛sEÇ¥˝EÇkáEÇ"EÅÿúEÅè&EÅE∞EÄ¸9EÄ≤ƒEÄiNEÄÿE¨¬E◊E~ÜÎE}ÙE}aE|Œ)E|;<E{®PEzÛ Ey«kEfƒ⁄E0m E/7BE.ÇE29EX–E*`AE)*ÅE'Ù¬E&øE%âBE$SÇE$"uE3˜WEG&ÁEG&ËEG&ËEG&ËEG&ËEG&ËEG&ËEG&ÈEG&ËEG&ËEG&ËEG&ËEG&ÈEG&ÁEG&ÁEG&ËEG&ËEG&ËEG&ÁEG&ËEG&ËEG&ËEG&ËEG&ÊEG&ËEG%äEF∫6EFhEE^öED∞ÀED˛ECU/E>l5E%À%E`W€EπEÉoâEÉ£EÇ¡ªEÇj’EÇÌEÅΩEÅfEÅ8EÄ∏PEÄaiEÄ
+ÇEg6E~πhE~òE}]ÀE|Ø˛E|.E{T`Ez¶íEy¯√ES‹XEq`dEwÔXEwAäEvìºEuÂÌEu8EtHED2ÊEb‡ZEpÜEoEFEnçEl√—EkÉEjB]Ei§Eg¿ÍEcÎFEa5êEc˛∫Ebæ Ea}GE`<åE^˚—E]ªE\z]E[9§EY¯ÈEX∂EWEí¿D2U!                        Dí_€ENjfEÌEPDpEO≤EMÿÚEL£2EKmqEJ7∞EIÒEGÃ3E?V7E8"∂EC&IEABΩE?_/E={†E;òE9¥ÉE7–ˆE5ÌhE4	ŸE2&KE0BΩE._.E,{°E*òE(¥ÑE&–ıE$ÌiE#	€E!&LEBæE_0E{°EòE¥ÖE–˜EÌiE	€E&LE]ˇE#E±ÅE
+`ﬁE	;EøöEn˜EUEÕ≥E}E,nDˇ∑ôD˝TD˙uD˜” Dı2ÜDÚëADÔÔ˝DÌN∏DÍ≠tDË0DÂjÎD‚…ßD‡(cD›áD⁄ÂÿDÿDîD’£PD”D–`«DÕøÇDÀ>D»|˙D∆ <Dƒ∞âD†ÖC–m‚C ˇpC≈ê˛CbC"CµE¶CØ◊4C™h¬C§˙PCüã‹CöjC√"‚DßOND÷œ„D”∆DœA™DÀzçD«≥rD√ÏTD¿%7Dº^D∏ó D¥œ‰D±«D≠A´D©zéD•≥rD°ÏUDû%9Dö^Dñó Díœ‰Dè»DãA¨DázèDÉ≥rDÿ≠DxJuDp¡≥Dj‡»Df	 Da2…D\[ DWÑÀDR≠ÃDM÷ÃDHˇÃDD(ÕDû›ÃDΩ2ÕDπ—DµÃ’D≤ŸDÆf›D™≥‡Dß ‰D£MËDüöÌDõÁDò4ÙDîÅ¯DêŒ¸Dç DâiDÖ∂DÇD|† Du:'Dm‘/D*)äDS>ïDW¢FDP<NDH÷VDAp^D:
+fD3≠≤D.íÆD)xeD$^DC‘D)ãDBDÙ˙D
+⁄≤D¿iD ¶ C˜∞CÏ„C‚ÆéCÿy¸CŒElCƒ⁄Cπ‹ICØß∏C•s'Cõ>ñCë
+CÜÊC¯‹CKΩ                            B–ô DÄARD{<rDuˆ?Dp∞Dki‹Df#™D`›xD[óEDVQDQ
+‚DxCñDEJÍDBªÒD@,¯D=û D;D8ÄD5ÒD3bD0”$D.D+D+µ2D)&9D&óAD$HD!yPDÍVD[^DÃeD=lDÆsDzDêÇDâD
+rëD„òDTüD≈¶D 6ÆC˚OiCˆ1xCÒÜCÎıïCÊ◊§C·π≤C‹õ¿C◊}–C“_ﬁCÕAÏC»#˚C√	CΩËC∏ &C≥¨4CÆéCC©pRC§R`Cü4oCö~Cî¯åCè⁄öCäº©CÖû∑CÄÄ∆Cv≈©Clâ∆CbM„CX CM÷CCö:C9^WC/"uC$ÊëC™ÆBﬁ
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                XTENSION= 'IMAGE   '           / Image extension                                BITPIX  =                  -32 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                  185                                                  NAXIS2  =                   14                                                  PCOUNT  =                    0 / number of parameters                           GCOUNT  =                    1 / number of groups                               DATAMIN =                   0. / Minimum data value                             DATAMAX =                   0. / Maximum data value                             ORIGIN  = 'NOAO-IRAF FITS Image Kernel July 2003' / FITS file originator        IRAF-TLM= '2019-03-04T22:30:09' / Time of last modification                     COMMENT   FITS (Flexible Image Transport System) format is defined in 'AstronomyCOMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H DATE    = '2019-03-04T22:29:57' / file creation date (YYYY-MM-DDThh:mm:ss UT)   CTYPE1  = 'WAVE    '           / grating dispersion function                    CUNIT1  = 'Angstrom'           / dispersion units                               CRPIX1  =                 15.0 / [pixel] reference pixel                        CRVAL1  =              10100.0 / [Angstrom] reference value                     CDELT1  =                 46.5 / [Angstrom/pixel] dispersion                    CTYPE2  = 'CRDIST  '           / cross-dispersion distance                      CUNIT2  = 'arcsec  '           / cross-dispersion units                         CRPIX2  =                  8.0 / [pix] reference pixel                          CRVAL2  =                  0.0 / [arcsec] reference value                       CDELT2  =             0.128254 / [arcsec/pixel] cross-dispersion scale          OBJECTID=                  358 / Object ID                                      NBEAM   =                    6 / Number of beam in object                       BEAMID  =                    0 / This beam ID                                   REFPNTX =            91.567000 / x coord. of reference point                    REFPNTY =            41.164000 / y coord. of reference point                    C0X     =                  106 / x coord. of 1st bounding quadrangle corner     C0Y     =                   39 / y coord. of 1st bounding quadrangle corner     C1X     =                  287 / x coord. of 2nd bounding quadrangle corner     C1Y     =                   40 / y coord. of 2nd bounding quadrangle corner     C2X     =                  287 / x coord. of 3rd bounding quadrangle corner     C2Y     =                   49 / y coord. of 3rd bounding quadrangle corner     C3X     =                  106 / x coord. of 4th bounding quadrangle corner     C3Y     =                   47 / y coord. of 4th bounding quadrangle corner     BB0X    =                  106 / x coord. of 1st bounding box corner            BB0Y    =                   39 / y coord. of 1st bounding box corner            BB1X    =                  287 / x coord. of 2nd bounding box corner            BB1Y    =                   49 / y coord. of 2nd bounding box corner            WIDTH   =             2.064000 / Width of object in pixel                       DRZWIDTH=             2.064000 / Width of object in pixel                       LENGTH  =                  185 / Length of object in pixel                      OWIDTH  =             2.000000 / Maximum width of object in pixel               ORIENT  =           -89.452000 / Orientation of object in deg. wrt y-axis, CCW  IGNORE  =                    0 / Ignore flag for this beam                      OREFPNTX=           166.124000 / x coord. of reference point                    OREFPNTY=            86.370250 / y coord. of reference point                    RREFPNTX=           -14.433000 / x coord. of refpoint in stamp image            RREFPNTY=             3.139000 / y coord. of refpoint in stamp image            WAVPNTX =           -39.709228 / x coord. of reference point                    WAVPNTY =             0.922132 / y coord. of reference point                    XOFFS   =            15.000000 / x-offset after drizzling                       LAMBDA0 =         10100.000000 / wavelength drizzled to                         DLAMBDA =            46.500000 / wavelength increment drizzled to               SKY_CPS =             0.873630 / electrons per second in the background         CDSCALE =             0.128254 / pixel scale in cross dispersion                SPCORR  =             0.971103 / correction factor resolution                   SLITWIDT=             1.000000 / slit width [pix]                               DRZ00   =        -1.387747E-01 / drizzle coefficient (0, 0)                     DRZ01   =         9.710583E-01 / drizzle coefficient (0, 1)                     DRZ02   =         9.287753E-03 / drizzle coefficient (0, 2)                     DRZ03   =         0.000000E+00 / drizzle coefficient (0, 3)                     DRZ04   =         0.000000E+00 / drizzle coefficient (0, 4)                     DRZ05   =         0.000000E+00 / drizzle coefficient (0, 5)                     DRZ06   =         0.000000E+00 / drizzle coefficient (0, 6)                     DRZ07   =         0.000000E+00 / drizzle coefficient (0, 7)                     DRZ08   =         0.000000E+00 / drizzle coefficient (0, 8)                     DRZ09   =         0.000000E+00 / drizzle coefficient (0, 9)                     DRZ10   =         1.852027E+00 / drizzle coefficient (1, 0)                     DRZ11   =        -9.568562E-03 / drizzle coefficient (1, 1)                     DRZ12   =         9.999542E-01 / drizzle coefficient (1, 2)                     DRZ13   =         0.000000E+00 / drizzle coefficient (1, 3)                     DRZ14   =         0.000000E+00 / drizzle coefficient (1, 4)                     DRZ15   =         0.000000E+00 / drizzle coefficient (1, 5)                     DRZ16   =         0.000000E+00 / drizzle coefficient (1, 6)                     DRZ17   =         0.000000E+00 / drizzle coefficient (1, 7)                     DRZ18   =         0.000000E+00 / drizzle coefficient (1, 8)                     DRZ19   =         0.000000E+00 / drizzle coefficient (1, 9)                     EXPTIME =             4211.742 / exposure time                                  NDRIZIM =                    4 / Drizzle, number of images drizzled onto this ouD001VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D001GEOM= 'User parameters'    / Drizzle, source of geometric information       D001DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_con_ID358.fits' / Drizzle, inD001DEXP=             1002.935 / Drizzle, input image exposure time (s)         D001OUDA= './DRIZZLE/aXeWFC3_G141_con_ID358.fits' / Drizzle, output data image  D001OUWE= './DRIZZLE/aXeWFC3_G141_conwht_ID358.fits' / Drizzle, output weightingD001OUCO= '        '           / Drizzle, output context image                  D001MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_wht_ID358.fits' / Drizzle, inD001WTSC=             1002.935 / Drizzle, weighting factor for input image      D001KERN= 'square  '           / Drizzle, form of weight distribution kernel    D001PIXF=                   1. / Drizzle, linear size of drop                   D001COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23s0q_flt_2_flt_ID358.coeffs' / Drizzle, D001XGIM= '        '           / Drizzle, X distortion image name               D001YGIM= '        '           / Drizzle, Y distortion image name               D001LAM =                 555. / Drizzle, wavelength applied for transformation D001SCAL=                   1. / Drizzle, scale (pixel size) of output image    D001ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D001XSH =                   0. / Drizzle, X shift applied                       D001YSH =                   0. / Drizzle, Y shift applied                       D001SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD001SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D001EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D001INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D001OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D001FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD001INXC=                 92.5 / Drizzle, reference center of input image (X)   D001INYC=                  7.5 / Drizzle, reference center of input image (Y)   D001OUXC=                 93.5 / Drizzle, reference center of output image (X)  D001OUYC=                   8. / Drizzle, reference center of output image (Y)  D001SECP=                    F / Drizzle, there are no secondary geometric paramD002VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D002GEOM= 'User parameters'    / Drizzle, source of geometric information       D002DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_con_ID358.fits' / Drizzle, inD002DEXP=             1102.936 / Drizzle, input image exposure time (s)         D002OUDA= './DRIZZLE/aXeWFC3_G141_con_ID358.fits' / Drizzle, output data image  D002OUWE= './DRIZZLE/aXeWFC3_G141_conwht_ID358.fits' / Drizzle, output weightingD002OUCO= '        '           / Drizzle, output context image                  D002MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_wht_ID358.fits' / Drizzle, inD002WTSC=             1102.936 / Drizzle, weighting factor for input image      D002KERN= 'square  '           / Drizzle, form of weight distribution kernel    D002PIXF=                   1. / Drizzle, linear size of drop                   D002COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23rsq_flt_2_flt_ID358.coeffs' / Drizzle, D002XGIM= '        '           / Drizzle, X distortion image name               D002YGIM= '        '           / Drizzle, Y distortion image name               D002LAM =                 555. / Drizzle, wavelength applied for transformation D002SCAL=                   1. / Drizzle, scale (pixel size) of output image    D002ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D002XSH =                   0. / Drizzle, X shift applied                       D002YSH =                   0. / Drizzle, Y shift applied                       D002SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD002SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D002EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D002INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D002OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D002FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD002INXC=                 92.5 / Drizzle, reference center of input image (X)   D002INYC=                  7.5 / Drizzle, reference center of input image (Y)   D002OUXC=                 93.5 / Drizzle, reference center of output image (X)  D002OUYC=                   8. / Drizzle, reference center of output image (Y)  D002SECP=                    F / Drizzle, there are no secondary geometric paramD003VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D003GEOM= 'User parameters'    / Drizzle, source of geometric information       D003DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_con_ID358.fits' / Drizzle, inD003DEXP=             1002.935 / Drizzle, input image exposure time (s)         D003OUDA= './DRIZZLE/aXeWFC3_G141_con_ID358.fits' / Drizzle, output data image  D003OUWE= './DRIZZLE/aXeWFC3_G141_conwht_ID358.fits' / Drizzle, output weightingD003OUCO= '        '           / Drizzle, output context image                  D003MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_wht_ID358.fits' / Drizzle, inD003WTSC=             1002.935 / Drizzle, weighting factor for input image      D003KERN= 'square  '           / Drizzle, form of weight distribution kernel    D003PIXF=                   1. / Drizzle, linear size of drop                   D003COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ruq_flt_2_flt_ID358.coeffs' / Drizzle, D003XGIM= '        '           / Drizzle, X distortion image name               D003YGIM= '        '           / Drizzle, Y distortion image name               D003LAM =                 555. / Drizzle, wavelength applied for transformation D003SCAL=                   1. / Drizzle, scale (pixel size) of output image    D003ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D003XSH =                   0. / Drizzle, X shift applied                       D003YSH =                   0. / Drizzle, Y shift applied                       D003SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD003SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D003EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D003INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D003OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D003FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD003INXC=                 92.5 / Drizzle, reference center of input image (X)   D003INYC=                  7.5 / Drizzle, reference center of input image (Y)   D003OUXC=                 93.5 / Drizzle, reference center of output image (X)  D003OUYC=                   8. / Drizzle, reference center of output image (Y)  D003SECP=                    F / Drizzle, there are no secondary geometric paramD004VER = 'DRIZZLE Version 3.4.2 (July 3rd 2006)' / Drizzle, task version       D004GEOM= 'User parameters'    / Drizzle, source of geometric information       D004DATA= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_con_ID358.fits' / Drizzle, inD004DEXP=             1102.936 / Drizzle, input image exposure time (s)         D004OUDA= './DRIZZLE/aXeWFC3_G141_con_ID358.fits' / Drizzle, output data image  D004OUWE= './DRIZZLE/aXeWFC3_G141_conwht_ID358.fits' / Drizzle, output weightingD004OUCO= '        '           / Drizzle, output context image                  D004MASK= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_wht_ID358.fits' / Drizzle, inD004WTSC=             1102.936 / Drizzle, weighting factor for input image      D004KERN= 'square  '           / Drizzle, form of weight distribution kernel    D004PIXF=                   1. / Drizzle, linear size of drop                   D004COEF= './DRIZZLE/tmp/ID358.OBJ/ib6o23ryq_flt_2_flt_ID358.coeffs' / Drizzle, D004XGIM= '        '           / Drizzle, X distortion image name               D004YGIM= '        '           / Drizzle, Y distortion image name               D004LAM =                 555. / Drizzle, wavelength applied for transformation D004SCAL=                   1. / Drizzle, scale (pixel size) of output image    D004ROT =                   0. / Drizzle, rotation angle, degrees anticlockwise D004XSH =                   0. / Drizzle, X shift applied                       D004YSH =                   0. / Drizzle, Y shift applied                       D004SFTU= 'input   '           / Drizzle, units used for shifts (output or inputD004SFTF= 'input   '           / Drizzle, frame in which shifts were applied    D004EXKY= 'exptime '           / Drizzle, exposure keyword name in input image  D004INUN= 'cps     '           / Drizzle, units of input image - counts or cps  D004OUUN= 'cps     '           / Drizzle, units of output image - counts or cps D004FVAL= 'INDEF   '           / Drizzle, fill value for zero weight output pixeD004INXC=                 92.5 / Drizzle, reference center of input image (X)   D004INYC=                  7.5 / Drizzle, reference center of input image (Y)   D004OUXC=                 93.5 / Drizzle, reference center of output image (X)  D004OUYC=                   8. / Drizzle, reference center of output image (Y)  D004SECP=                    F / Drizzle, there are no secondary geometric paramEXTNAME = 'CON     '                                                            EXTVER  =                    1                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 9ÇJÖ:mÕ˝; ¬5:<£(:1ª8àï(                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            98∞Ç:L´; úU:˛ÿ:∏9ki8â©Ü                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        9[àÍ:©ci;i‘;Û:öÀ8ùxÙ6_˙                                                                                                                                                        1ÄHÙ3õY3Ös3ª•ö3»ü®3¥«ÿ3e˜3gK3Ev3;éU3%g2xÒS1S                                    3]≤<6%˛5†’X                                                                                                                                                                                                                                                                                                                                                                                                                                                                            82øﬂ:eY;:6ï∆:∂ÎÍ9é
+ë7áÛx4‘’é                                                                                                                                                    39ï∞5∏\6ì¡ 7{ä7;–7S€7z	ﬁ7ú∫]7Ø˛;7Â/Ó8ÿ÷87ÈÄ8j|˙8úù™8÷'ü9Ø…9G_9ÄÒ{9£ò“9Âî‡: *¸:U<H:Ö¬è:†<∆:ª«,:–˘O:∑                                                                                                                                                                                                                                                                                                                                                                                                                                                                            9à«Ú8ÃZõ9>HÇ7¡¿£5å¢â                                                                                                                                                        5"16æ“7ô=â8‹Ï8Tîg8vŸÚ8âﬁ8ûSà8¿ü8˝Ò9#
+s9L≠9Å«˘9´b9Êˆœ:”æ:GQf:Ä≤†:¨Ó:Óì";$≥“;Y‡I;à!;¢a;ºû‘;’'Ï;›¥™                                                                                                                                                                                                                                                                                                                                                                                                                                                                            7˙”U7 õ¢6Ä|ı                                                                                                                                                            2îŒÌ6mc7H≥a8ÌÆ8l[ƒ8§´88¬*ﬂ8⁄"e8˛>ú9â9LI9År¨9¢.°9Œß:∏:6∫:pΩp:õË: };ßj;;;G+;ß&L;œ≠ƒ;˜!–<)≥<…<*Á—                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    2NBˇ6A„L7Uì7Ù8LGó8âÊ…8¢,8∑®≠8Ÿ∂9èö9-'M9a6Œ9é p9≤	i9Îıá:ÖÕ:O$:Ü'Ì:Ø—:Ì∂œ;$È;^m;èÊ˚;±ë&;“˝+;Ùπ<#◊<∫o                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    0]m6ü7#∂’7™àè7ˇ$÷8!∫c89wv8Sò08Ä ∞8¢~Ç8œHR8˝Wl9·Ö9Ma9ç69æÊ9˜[≠:J”:R$:è¿Ñ:∆Í◊;e0;)Î2;N°π;t„;çW6;ôo;®ï                                                                                                                                                                                                                                                                                                                                                                                                                            8≈,á9Ï¡:NcG:Tı¨:Kø¿:Ar√:&”9g¸w                                                                                                                                                                                            5-Çl6ãc07"07QÕ7l”"7ÇÉ˛7îˇ`7πÍ˝7Ûí8Ë 8CÑà8u38úë8÷|9g9A”\9xB(9§‘…9Ê{:!π$:Yj(:â;n:•πæ:√◊:‰ÑG:˚d";,k                                                                                                                                                                    7∫∆⁄9ºv                                                                                                                                                                                                                                                :+æ;Ò˜;2R1;,kç;)Œ∆;¸:».m9‡óã                                                                                                                                                                                            4âe·6Fı6´±6“ı#6ÍÃò6˛‰7,]7@Uµ7Äqï7§y7…Ÿ7˚]|8'ˆ¯8gΩ8öA8¬Æ_8ÚL∂9Ü9\:≠9ò±q9∆Ê/9Ìh>:Ûe:$C:1K;:HW˝                                                                                                                                                                        8∑	≈:≈˝B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                XTENSION= 'IMAGE   '           / IMAGE extension                                BITPIX  =                  -32 / number of bits per data pixel                  NAXIS   =                    2 / number of data axes                            NAXIS1  =                  185 / length of data axis 1                          NAXIS2  =                   14 / length of data axis 2                          PCOUNT  =                    0 / required keyword; must = 0                     GCOUNT  =                    1 / required keyword; must = 1                     EXTNAME = 'WHT     '           / name of this extension                         DATE    = '2019-03-04T22:33:27' / file creation date (YYYY-MM-DDThh:mm:ss UT)   END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä                          ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä                          ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä                          ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä                          ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä  ?Ä                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
